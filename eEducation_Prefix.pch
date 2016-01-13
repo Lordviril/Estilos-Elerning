@@ -1,0 +1,53 @@
+
+	#define BUTTON_LOGO_TAG 9999
+	#define LABEL_TITLE_TAG 8888
+	#define BUTTON_HOME_TAG 7777
+	#define BUTTON_SETTINGS_TAG 6666
+	#define TAG_NO_RECORD_FOUND 99
+    #define TAG_FailError 11111111
+
+    #define TAG_ALERT_LOGOUT 9001
+    #define TAG_ALERT_TITLEWRONG 9002
+    #define TAG_ALERT_COMMENTWRONG 9003
+    #define TAG_ALERT_NEEDTOREFRES 9004
+    #define TAG_ALERT_CLOSE_SLIDE 9005
+    #define TAG_ALERT_SUBMIT_PAPER_CONFIRMATION 9006
+
+#define IS_iPHONE_5 ([[UIScreen mainScreen] bounds].size.height == 568)
+#define KEYBOARD_HEIGHT (UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation)?264:352)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+
+//#define RTLableText @"<span style='line-height: 0px;'><font face=HelveticaNeue size=9 color='#010101'>%@</font></span><font face='HelveticaNeue' size=9 color='#00a8d3'>%@</font><font face=HelveticaNeue size=9 color='#000000'>%@</font><font face='HelveticaNeue' size=9 color='#00a8d3'>%@</font>"
+
+#define RTLableText @"<font face=HelveticaNeue size=9 color='#000000'>%@</font><font face='HelveticaNeue' size=9 color='#00a8d3'>%@</font><font face=HelveticaNeue size=9 color='#000000'>%@</font><font face='HelveticaNeue' size=9 color='#00a8d3'>%@</font>"
+
+#define CalenderRTLableText @"<font face=HelveticaNeue size=20 color='#010101'>%@</font><br><font face='HelveticaNeue' size=12 color='#069fde'>%@</font>"
+
+#define MessagesListRTLableText @"<font face=HelveticaNeue-Bold size=15 color='#333333'>%@</font><font face='HelveticaNeue' size=15 color='#333333'>%@</font>"
+
+#define kNumberOfItemsPerPage 9
+#define IsGreaterThan_iOS6 ([[[UIDevice currentDevice] systemVersion] compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending)
+
+
+//its allow to execute all objective c files
+
+	#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+	#import "eEducationAppDelegate.h"
+	#import "eEducationConstants.h"
+	#import "validations.h"
+    #import "WebService.h"
+    #import "MBProgressHUD.h"
+	#import "JSONParser.h"
+    #import "SBJSON.h"
+    #import "AsyncImageView.h"
+    #import "DataBase.h"
+	#import"Message.h"
+	#import"Calender.h"
+	#import"Forum.h"
+	#import"Alert.h"
+	#import"VirtualLibrary.h"
+	#endif
+
+

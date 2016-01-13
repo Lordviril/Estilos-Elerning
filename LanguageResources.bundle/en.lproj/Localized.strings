@@ -1,0 +1,390 @@
+//skip Screen
+"Visit Microsite"="Visit Microsite";
+"Speaker Name"="Speaker Name";
+"Begins "="BEGINS ";
+"- Ends "=" - ENDS ";
+"WELCOME"="WELCOME";
+"Loading"="Loading";
+//Download
+"Enter Course Name"="Enter Course Name";
+"Enter Module Name"="Enter Module Name";
+"Email address does not match!"="Email address does not match!";
+"Failed to download data"="Failed to download data";
+"Are you sure to delete data?"="Are you sure to delete data?";
+/************* Calender Class********************/   
+  "Sun"="Sun";
+  "Mon"="Mon";
+  "Tue"="Tue";
+  "Wed"="Wed";
+  "Thu"="Thu";
+  "Fri"="Fri";
+  "Sat"="Sat";
+  "January"="January";
+  "February"="February";
+  "March"="March";
+  "April"="April";
+  "May"="May";
+  "June"="June";
+  "July"="July";
+  "August"="August";
+  "September"="September";
+  "October"="October";
+  "November"="November";
+  "December"="December";
+/********** LOGIN PAGE******************/
+ "SIGN IN"="SIGN IN";
+ "Working offline"="Working offline";
+ "You are reached maximum attempt count."="You have reached maximum attempt count.";
+  "LOGIN"="LOGIN";
+  "Enter the password"="Enter the password";
+  "Forgot your password?"="Forgot your password?";
+  "USERNAME"="USERNAME";
+  "PASSWORD"="PASSWORD";
+  "Enter Email"="Enter Email";
+  "Record updates successfully"="Record updated successfully";
+    "staticText1"="A Virtual Campus tailored to your mobility needs";
+    "staticText2"="Where, How and When you want!";
+    "staticText3"="JOIN THE VIRTUAL CAMPUS";
+  
+/********** common Strings For All Classes ******************/  
+  "User Name"="User Name";
+  "Name of Teacher"="Name of Teacher";
+  "Start Date"="Start Date";
+  "Start Date Edition"="Start Date Edition:";
+  "Final Evaluation"="Final Evaluation:";
+  "Edition"="Edition";
+  "Course Edition"="Course Edition:";
+  "End Date"="End Date";
+  "End date Edition"="End date Edition:";
+  "Calification Date"="Calification Date";
+  "Date"="Date";
+  "COURSES"="COURSES";
+   "VIDEOS"="VIDEOS";
+   "Duration"="Duration";
+  "Practices of Module Name"="Practices of Module Name";
+  "Description"="Description";  
+/*************pdf header Names****************/
+
+  "View StudyPlans"="View Study Plan";
+  "Bibliography"="Bibliography";
+  "Document 1 Of Chapter Name"="Document 1 Of Chapter Name";
+  
+  
+/***************CoursesList Class*****************/
+
+  "ACCESS COURSE"="ACCESS COURSE";
+"TUTORIAL"="TUTORIAL";
+"REFERENCES"="REFERENCES";
+/***************Settings Class*****************/
+
+  "Settings"="Settings";
+  "SAVE"="SAVE";
+  "CHANGE PHOTO"="CHANGE PHOTO";
+  "General Settings :"="General Settings";
+  "Auto Log-In"="Auto Log-In";
+  "Get Alerts"="Get Alerts";
+  "Language"="Language";
+  "Profile Settings :"="Profile Settings";
+  "First Name"="First Name";
+  "Last Name"="Last Name";
+  "Email"="Email";
+  "Date of Birth"="Date of Birth";
+  "City"="City";
+  "Province"="Province";
+  "Country"="Country";
+  "Telephone"="Telephone";
+  "Password Setttings :"="Password Setttings :";
+  "Current Password"="Current Password";
+  "New Password"="New Password";
+  "Re-enter Password"="Re-enter Password";
+  
+/*************ChapterDetails Class********************/
+  
+  "DOCUMENTS"="DOCUMENTS";  
+  
+/*************  ModuleHomePage Class********************/
+"NoChap"="There are no chapters available.";
+"NoPrac"="There are no practices available.";
+"NoTest"="There are no tests available.";
+"NoVideo"="No videos available.";
+"NoTeach"="No teacher found.";
+
+  "tEVALUATED"="EVALUATED";
+  "pEVALUATED"="EVALUATED";
+
+  "AVAILABLE"="AVAILABLE";
+  "pDONE"="DONE";
+  "tDONE"="DONE";
+  "Speaker"="Speaker";
+  "CHAPTERS"="Chapters";
+  "Evaluated Practices" = "Evaluated Practices";
+  "Available Tests"="Available Tests";
+  "Videos"="Videos";
+  "CHECKLIST"="CHECKLIST";
+  "TABLE OF CONTENTS"="TABLE OF CONTENTS";
+  "OBJECTIVES"="OBJECTIVES";
+
+/*************  ModulesList Class********************/
+
+   "HOME"="HOME";
+  "MODULES"="MODULES";
+  
+/*************  PracticeDetail Class********************/
+ 
+  "Name"="Name";
+  "Marks"="Marks";
+/*************  TestDetails Class********************/
+  
+  "Test Details"="Test Details";
+  "Question"="Question";
+  "Elapsed Time :"="Elapsed Time :";
+  
+/*************  TestResults Class********************/  
+  
+  "Total Marks"="Total Marks";
+  "Marks Achieved"="Marks Achieved";
+  "Your Score"="Your Score";
+  "Taken duration"="Taken duration";
+/*************  Navigation Lables Class********************/ 
+  "Tests of Module Name"="Tests of Module Name";
+  "Calendar"="Calendar";
+  "Forums"="Forums";
+  "Forum"="Forum";
+  "Alerts"="Alerts";
+  "Message"="Message";
+  "Library"="Library";
+  "Module home page"="Module home page";
+  "Course home page"="Course home page";
+  "Tests of module name"="Tests of module name";
+  "Comment add succesfully"= "Comment added successfully";
+  "Forum added successfully" = "Thread added successfully";
+  "Delete"="Delete";
+  "Message Deleted sucessfully"="Message Deleted successfully";
+  "Message Sent sucessfully"="Message Sent successfully";
+  
+/*************PrecticeListCustomCell Class********************/ 
+  "Single Selection"="Single Selection";
+  "Status :"="Status :";
+  "Single" = "Single";
+  "Selection" = "Selection";
+  "Multiple" = "Multiple";
+/************* TestResultCustomCell Class********************/ 	 
+  "Your Answer: "="Your Answer : ";
+  "Your Answered :"="Your Answered :";
+  "Score :"="Score :";
+  "Correct Answer!"="Correct Answer!";
+  "Correct Answer: "="Correct Answer : ";
+  "Wrong Answer!"=  "Wrong Answer!";
+  "Correct Answered  :"="Correct Answered  :";
+/************* DownloadedDocument Class********************/  
+  "Downloaded Documents"="Downloaded Documents";
+  "Course"="Course";
+  "Chapter"="Chapter";
+  "Document"="Document";
+  "Type of Document"="Type of Document";
+  "Select Type"="Select Type";
+  "Search Document"="Search Document";
+  "Test"="Test";
+/************* ForumCustomCell Class********************/   
+  "Total Comments    :"="Total Comments    :";
+  "Posted By :"="Posted By :";
+  "Posted Date           :"="Posted Date           :";
+  "Topic Name"="Topic Name";
+  "Comment Posted Successfully."="Comment posted successfully.";
+  "Forum Topic Posted Successfully"="Forum topic posted successfully.";
+/************* ForumCustomCell Class********************/
+  "TOPICS"="TOPICS";
+"COMMENTS"="COMMENTS";
+  "NEW MESSAGE"="NEW MESSAGE";
+  "Student Name"="Student Name";
+  "Date:"="Date:";
+ "LEAVE COMMENT"="LEAVE COMMENT";
+ "TITLE"="TITLE";
+ "COMMENT"="COMMENT";
+ "Enter forum title."="Enter forum title.";
+ "Please enter valid forum title."="Please enter valid forum title.";
+ "Please enter valid comment."="Please enter valid comment.";
+/************* Message Class********************/
+  "MESSAGES"="MESSAGES";
+  "Subject :"="Subject :";
+  "Subject" = "Subject";
+  "From"="From";
+  "INBOX"="INBOX"; 
+   "SENT BOX"="SENT BOX";
+   "SENT"="SENT";
+   "NEW MESSAGE"="NEW MESSAGE";
+   "REPLY"="REPLY";
+   "BACK"="BACK";
+  "Please enter valid subject."="Please enter valid subject.";
+  "Please enter valid message."="Please enter valid message.";
+/************* Message Class********************/
+  "Video"="Video";
+  "Duracion"="Duracion";
+  
+/**************newly added Strings***************/
+  "Attempt For Test"="Attempt For Test";
+  "View Results"="View Results";
+
+/**************Other Studetns Strings***************/
+  "STUDENTS"="STUDENTS";
+
+/**************Alert Message Strings***************/  
+"OK"="OK";
+"YES"="YES";
+"NO"="NO";
+"Failed to upload test"="Failed to upload test";
+//==============LoginScreen======================
+"Please enter username."="Please enter username.";  
+"Please enter password."="Please enter password.";
+"Please enter correct username/password."="Please enter correct username/password.";
+"Your Password details are sucessfully sent to mail."="Your Password details are sucessfully sent to mail.";
+
+//==============ReaderContentView======================
+"You are reached maximum zoom level."="You are reached maximum zoom level.";
+"You are reached minimum zoom level."="You are reached minimum zoom level.";
+
+//==============Alert======================
+"SEE ALERT"="SEE ALERT";
+"Are you sure to delete selected alert.?"="Are you sure to delete selected alert.?";
+  
+//==============Alert======================
+"You're about to logout, are you sure?"="You're about to logout, are you sure?";
+
+//==============Settings======================
+"Take a Photo"="Take a Photo";
+"Choose Existing"="Choose Existing";
+"Select date"="Select date";
+"Please enter firstname."="Please enter firstname.";
+"Please enter lastname."="Please enter lastname.";
+"Please enter email address."="Please enter email address.";
+"Please enter valid email address."="Please enter valid email address.";
+"Please select date of birth."="Please select date of birth.";
+"Please enter city."="Please enter city.";
+"Please enter province."="Please enter province.";
+"Please enter country."="Please enter country.";
+"Please enter telephone."="Please enter telephone.";
+"Please enter  password."="Please enter  password.";
+"Both new password and confirm password should be equal."="Both new password and confirm password should be equal.";
+
+//==============Alerts by Newly Added======================
+"Declared"="Declared";
+"Exam duration is over."="Exam duration is over.";
+"The server cannot be reached. It could be down or busy. Please try again later."="The server cannot be reached. It could be down or busy. Please try again later.";
+"Do you want to continue with offline mode?"="Do you want to continue with offline mode?";
+"Invalid Username or Password OR you are not authorized to login from here."="Invalid Username or Password OR you are not authorized to login from here.";
+"No document found with your search key"="No document found with your search key";
+"No test found with your search key"="No test found with your search key";
+"Requested PDF is not found in server please try again."="Requested PDF is not found in server please try again.";
+"Selected Pdf is not loaded properly."="Selected Pdf is not loaded properly.";
+"Loading..."="Loading ...";
+"Error"="Error";
+"An unknown error occured"="Sorry, an unknown error occured";
+"Root File not Valid"="Root File not Valid";
+"OPF File not found"="OPF File not found";
+"Tabbar Viewcontrollers and Tabbar Images Should be equal. Tabbar images will not Set."="Tabbar Viewcontrollers and Tabbar Images Should be equal. Tabbar images will not Set.";
+"Video format is not supported."="Video format is not supported.";
+"Please enter vaild email address."="Please enter vaild email address.";
+"No Documents are available for this Chapter."="No Documents are available for this Chapter.";
+"pdf not downloded properly."="pdf not downloded properly.";
+"No Comments are available For this Forum."="No Comments are available For this Forum.";
+"No comment avabilable for current topic."="No comment avabilable for current topic.";
+"Please enter comment."="Please enter comment.";
+"No Forums are available For this course."="No Forums are available For this course.";
+"Please enter topic name."="Please enter topic name.";
+"Server error, Please try again later"="Server error, Please try again later";
+"No messages are available for this course."="No messages are available for this course.";
+"Please enter message."="Por favor, introduzca mensaje.";
+"Please enter subject."="Please enter subject.";
+"No Practice found for this course."="No practice available";
+"Currently no course available for this user."="Currently no course available for this user.";
+"No data available for test"="No data available for test";
+"No internet connection available"="No internet connection available";
+"ALERTS"="ALERTS";
+"No alerts available for this user."="No alerts available for this user.";
+"No question available for this test"="No question available for this test";
+"Test time completed.For this test results go to view results"="Test time completed.For this test results go to view results";
+"Your Password has been mailed to you."="Your Password has been mailed to you.";
+"No event available for this user."="No event available for this user.";
+"No pdf books are available For this course."="No pdf books are available For this course.";
+"No Epub books are available For this course."="No Epub books are available For this course.";
+"Requested Epub is not found in server please try again."="Requested Epub is not found in server please try again.";
+"requested PDF not loaded properly."="Requested PDF not loaded properly.";
+"No videos are available For this course."="No videos are available For this course.";
+"You haven't download any documents"="You haven't download any documents";
+"You haven't download any test"="You haven't download any test";
+"No Chapters and Videos are available for this module."="No Chapters and Videos are available for this module.";
+"No Videos are available for this module."="No Videos are available for this module.";
+"No chapters are available for this module."="No chapters are available for this module.";
+"No comment avabilable for current topic."="No comment avabilable for current topic.";
+"Not Uploaded"="Not Uploaded";
+"Uploaded"="Uploaded";
+"No module available for this course."="No module available for this course.";
+//==============GetLocalValues by Newly Added======================
+"Abstracts In Pdf"="Abstracts In Pdf";
+"Loading PDF..."="Loading PDF...";
+"Loading EPUB..."="Loading EPUB...";
+"Please wait"="Please wait";
+"To"="To";
+"to"="to";
+"Test"="Test";
+"Practices"="Practices";
+"CURRICULAM"="STUDY PLAN";
+"BIBLOGRAPHY"="BIBLOGRAPHY";
+"Practice"="Practice";
+"Enter Test Name"="Enter Test Name";
+"Enter Document Name"="Enter Document Name";
+"ATTEMPT FOR TEST"="TEST";
+"DOWNLOADED DOCUMENTS"="DOWNLOADED DOCUMENTS";//Documentos Descargados
+"CALENDER"="CALENDER";
+"Calendar"="Calendar";
+"New Thread"="New Thread";
+"Total Comments"="Total Comments";
+"Posted By"="Posted By";
+"Posted Date"="Posted Date";
+"VIRTUAL LIBRARY"="VIRTUAL LIBRARY";
+"Please enter valid current password."="Please enter valid current password.";
+"Please enter new password."="Please enter new password.";
+"Done"="Done";
+"Cancel"="Cancel";
+"Enter topic name.."="Enter topic name..";
+"Enter comment here"="Enter comment here";
+"Enter message here"="Enter message here";
+"Enter subject"="Enter subject";
+"Your test uploaded successfully"="Your test uploaded successfully";
+
+"No result available for this test"="No result available for this test";
+"This test result not declared yet"="This test result not declared yet";
+"Test Name"="Test Name";
+"Test Status"="Test Status";
+"Submitted data will be stored in database,it will be automatically resend when network is available."="Submitted data will be stored in database,it will be automatically resend when network is available.";
+"Your answers saved successfully."="Your answers saved successfully.";
+"Your Password has been mailed to you."="Your Password details are sucessfully sent to mail.";
+"No internet connection. Please try later!"="No internet connection. Please try later!";
+"No student found."="No student found.";
+"Confrirmation"="Confrirmation";
+"Are you sure you want to submit the test? If submitted, the review shall be considered completed and delivered, and an attempt will be deducted."="Are you sure you want to submit the test? If submitted, the review shall be considered completed and delivered, and an attempt will be deducted.";
+
+"Current device doesn't have camera."="Current device doesn't have camera.";
+"E-mail not setup properly."="E-mail not setup properly.";
+"Sending mail is canceled."="Sending mail is canceled.";
+"Mail saved in drafts."="Mail saved in drafts.";
+"Mail sent successfully."="Mail sent successfully.";
+"Mail sending failed."="Mail sending failed.";
+"Description for practice"="Description for practice";
+"MASTERS OF MODULE"="MASTERS OF MODULE";
+"MODULE"="Module";
+"Practice document"="Practice document";
+"start the test"="start the test";
+"Instructions"="Instructions";
+"Confirmation"="Confirmation";
+"Requested video is not found in server please try again."="Requested video is not found in server please try again.";
+"Message Sent Successfully."="Message Sent Successfully.";
+"No teacher is assigned to you"="No teacher is assigned to you";
+"BackAtrás"="Back";
+"Please re-enter password."="Please re-enter password.";
+"Time Spent: "="Time spent ";
+"Rating: "="Rating ";
+"Marks: "="Marks ";
+"NEXT"="NEXT";
+"PREVIOUS"="PREVIOUS";
+"Limit"="Limit";

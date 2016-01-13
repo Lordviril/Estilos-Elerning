@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ICourseList">
+            <connections>
+                <outlet property="Scrollview" destination="12" id="85"/>
+                <outlet property="bottomBar" destination="39" id="91"/>
+                <outlet property="btn_bibilography" destination="36" id="50"/>
+                <outlet property="btn_studyPlan" destination="35" id="52"/>
+                <outlet property="btn_tutiorial" destination="37" id="53"/>
+                <outlet property="carousel_courses" destination="6" id="117"/>
+                <outlet property="courses" destination="8" id="63"/>
+                <outlet property="imageBackground" destination="4" id="66"/>
+                <outlet property="imageMainbackground" destination="14" id="69"/>
+                <outlet property="imageThumb" destination="20" id="70"/>
+                <outlet property="imagecoverFlow" destination="5" id="67"/>
+                <outlet property="imgLogo" destination="171" id="174"/>
+                <outlet property="imgLogoStatic" destination="172" id="173"/>
+                <outlet property="imgProfile" destination="140" id="141"/>
+                <outlet property="lblCourses" destination="132" id="134"/>
+                <outlet property="lblProfileBlueName" destination="127" id="147"/>
+                <outlet property="lblProfileGrayName" destination="126" id="148"/>
+                <outlet property="lblTopCourse" destination="154" id="160"/>
+                <outlet property="lblTopDuration" destination="158" id="159"/>
+                <outlet property="lbl_Edition" destination="27" id="107"/>
+                <outlet property="lbl_EditionValue" destination="29" id="168"/>
+                <outlet property="lbl_EndDate" destination="33" id="165"/>
+                <outlet property="lbl_EndDateValue" destination="34" id="167"/>
+                <outlet property="lbl_FinalMarks" destination="18" id="111"/>
+                <outlet property="lbl_FinalMarksValue" destination="26" id="112"/>
+                <outlet property="lbl_StartDate" destination="30" id="163"/>
+                <outlet property="lbl_StartDateValue" destination="32" id="164"/>
+                <outlet property="tab1" destination="40" id="92"/>
+                <outlet property="tab2" destination="45" id="93"/>
+                <outlet property="tab3" destination="47" id="94"/>
+                <outlet property="tab4" destination="48" id="95"/>
+                <outlet property="tab5" destination="49" id="96"/>
+                <outlet property="textview" destination="19" id="86"/>
+                <outlet property="txtViewCourseName" destination="151" id="153"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <userGuides>
+                <userLayoutGuide location="383" affinity="minX"/>
+            </userGuides>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backgroundnuevo.jpg" id="4">
+                    <rect key="frame" x="0.0" y="-20" width="768" height="1024"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="123">
+                    <rect key="frame" x="0.0" y="20" width="768" height="92"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="topbar.png" id="149">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="61"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="172" customClass="AsyncImageView">
+                            <rect key="frame" x="101" y="3" width="82" height="54"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="redraw" id="171" customClass="AsyncImageView">
+                            <rect key="frame" x="10" y="3" width="80" height="54"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="11" id="154">
+                            <rect key="frame" x="211" y="5" width="270" height="37"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="158" customClass="RTLabel">
+                            <rect key="frame" x="211" y="40" width="270" height="20"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="129">
+                            <rect key="frame" x="725" y="16" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="btn_login.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="btn_login_h.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnLogoutClicked:" destination="-1" eventType="touchUpInside" id="137"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="125">
+                            <rect key="frame" x="695" y="16" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="btn_setting.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="btn_setting_h.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnSettingsClicked:" destination="-1" eventType="touchUpInside" id="138"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="124">
+                            <rect key="frame" x="665" y="16" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="btn_education.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="btn_education_h.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnStudentsClicked:" destination="-1" eventType="touchUpInside" id="139"/>
+                            </connections>
+                        </button>
+                        <view tag="12345" contentMode="scaleToFill" id="140" customClass="AsyncImageView">
+                            <rect key="frame" x="490" y="5" width="52" height="52"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="135">
+                            <rect key="frame" x="490" y="5" width="152" height="52"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="proImgClicked:" destination="-1" eventType="touchUpInside" id="136"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PEPE JIMENZE" lineBreakMode="tailTruncation" minimumFontSize="10" id="127">
+                            <rect key="frame" x="550" y="31" width="115" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="10"/>
+                            <color key="textColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="BIENVENIDO" lineBreakMode="tailTruncation" minimumFontSize="10" id="126">
+                            <rect key="frame" x="550" y="19" width="115" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="10"/>
+                            <color key="textColor" red="0.58823529409999997" green="0.59215686270000001" blue="0.59215686270000001" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="130">
+                            <rect key="frame" x="0.0" y="60" width="768" height="32"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="right_box_tab_s4_gray.png" id="150">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="32"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="COURSES" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="132">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.090196078430000007" green="0.1058823529" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                    <color key="textColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="12">
+                    <rect key="frame" x="0.0" y="112" width="768" height="863"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" image="box_s3.png" id="14">
+                            <rect key="frame" x="17" y="8" width="732" height="615"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="36">
+                            <rect key="frame" x="255" y="45" width="143" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                            <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="40" maxY="0.0"/>
+                            <state key="normal" backgroundImage="button_s3-1.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn_bibilographylPressed:" destination="-1" eventType="touchUpInside" id="87"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="37">
+                            <rect key="frame" x="414" y="45" width="143" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                            <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="40" maxY="0.0"/>
+                            <state key="normal" backgroundImage="button_s3-1.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn_tutiorialPressed:" destination="-1" eventType="touchUpInside" id="99"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="35">
+                            <rect key="frame" x="55" y="45" width="188" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                            <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="40" maxY="0.0"/>
+                            <state key="normal" backgroundImage="button_s3.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn_studyPlanPressed:" destination="-1" eventType="touchUpInside" id="89"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="box_left_s3.png" id="20">
+                            <rect key="frame" x="55" y="123" width="245" height="340"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icon_head_s3.png" id="142">
+                            <rect key="frame" x="320" y="120" width="13" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="151">
+                            <rect key="frame" x="341" y="111" width="375" height="51"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="textColor" red="0.050980392159999999" green="0.1960784314" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="152"/>
+                            </connections>
+                        </textView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="circle_s3.png" id="143">
+                            <rect key="frame" x="349" y="227" width="6" height="7"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="circle_s3.png" id="144">
+                            <rect key="frame" x="349" y="262" width="6" height="7"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="circle_s3.png" id="145">
+                            <rect key="frame" x="349" y="297" width="6" height="7"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="circle_s3.png" id="146">
+                            <rect key="frame" x="349" y="332" width="6" height="7"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" adjustsFontSizeToFit="NO" id="18">
+                            <rect key="frame" x="370" y="220" width="128" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" id="26">
+                            <rect key="frame" x="535" y="220" width="170" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" adjustsFontSizeToFit="NO" id="27">
+                            <rect key="frame" x="370" y="255" width="128" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" id="29">
+                            <rect key="frame" x="535" y="255" width="170" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" adjustsFontSizeToFit="NO" id="30">
+                            <rect key="frame" x="370" y="290" width="128" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" id="32">
+                            <rect key="frame" x="535" y="290" width="170" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" adjustsFontSizeToFit="NO" id="33">
+                            <rect key="frame" x="370" y="325" width="128" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="10" id="34">
+                            <rect key="frame" x="535" y="325" width="170" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.17999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="19">
+                            <rect key="frame" x="48" y="478" width="680" height="115"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.035294117649999998" green="0.1333333333" blue="0.2470588235" alpha="0.0" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.44313728810000003" green="0.44313728810000003" blue="0.44313728810000003" alpha="1" colorSpace="deviceRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" image="bottom_box_s3.png" id="5">
+                            <rect key="frame" x="17" y="630" width="734" height="223"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ACCESS COURSE" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="8">
+                            <rect key="frame" x="40" y="639" width="685" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" id="6" customClass="iCarousel">
+                            <rect key="frame" x="36" y="674" width="694" height="160"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="61"/>
+                                <outlet property="delegate" destination="-1" id="62"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="118"/>
+                    </connections>
+                </scrollView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottambar.png" id="39">
+                    <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="40">
+                    <rect key="frame" x="48" y="975" width="134" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="TabarIndexSelected:" destination="-1" eventType="touchUpInside" id="100"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="45">
+                    <rect key="frame" x="182" y="975" width="134" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="TabarIndexSelected:" destination="-1" eventType="touchUpInside" id="101"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="33" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="47">
+                    <rect key="frame" x="316" y="975" width="134" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="TabarIndexSelected:" destination="-1" eventType="touchUpInside" id="102"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="44" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="48">
+                    <rect key="frame" x="450" y="975" width="134" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="TabarIndexSelected:" destination="-1" eventType="touchUpInside" id="103"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="55" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="49">
+                    <rect key="frame" x="584" y="975" width="134" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="TabarIndexSelected:" destination="-1" eventType="touchUpInside" id="104"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backgroundnuevo.jpg" width="2048" height="1366"/>
+        <image name="bottambar.png" width="768" height="49"/>
+        <image name="bottom_box_s3.png" width="734" height="223"/>
+        <image name="box_left_s3.png" width="245" height="343"/>
+        <image name="box_s3.png" width="732" height="615"/>
+        <image name="btn_education.png" width="30" height="30"/>
+        <image name="btn_education_h.png" width="30" height="30"/>
+        <image name="btn_login.png" width="30" height="30"/>
+        <image name="btn_login_h.png" width="30" height="30"/>
+        <image name="btn_setting.png" width="30" height="30"/>
+        <image name="btn_setting_h.png" width="30" height="30"/>
+        <image name="button_s3-1.png" width="143" height="39"/>
+        <image name="button_s3.png" width="188" height="39"/>
+        <image name="circle_s3.png" width="6" height="7"/>
+        <image name="icon_head_s3.png" width="13" height="17"/>
+        <image name="right_box_tab_s4_gray.png" width="490" height="44"/>
+        <image name="topbar.png" width="768" height="61"/>
+    </resources>
+</document>

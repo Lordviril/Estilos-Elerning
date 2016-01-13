@@ -1,0 +1,23 @@
+body
+{
+	margin : 0px;
+	background: black;
+}
+
+video
+{
+    width: 580;
+    height: 200;
+}
+
+iframe
+{
+    width: 580;
+    height: 200;
+}
+
+embed
+{
+    width: 580;
+    height: 200;
+}
