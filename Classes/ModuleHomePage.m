@@ -1742,6 +1742,8 @@
             cell = [[ChaptersCell alloc] init];
         }
         cell.lblChapterTitle.text = [[ChapterListArray objectAtIndex:index] valueForKey:@"chapter_name"];
+        //cell.lblChapterTitle.ContainerInset = UIEdgeInsetsMake(0, 20, 0, 20);
+        //cell.lblChapterTitle.contentMode = UIEdgeInsetsMake(-4,-8,0,0);
         cell.txtChapterDesc.text = [[ChapterListArray objectAtIndex:index] valueForKey:@"chapter_desc"];
         return cell;
     } else if(gridView == self.gridTeachers){

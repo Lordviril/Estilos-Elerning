@@ -414,7 +414,7 @@
         [header.btnComments addTarget:self action:@selector(addCell:) forControlEvents:UIControlEventTouchUpInside];
         return header;
     } else{
-        ForumCell *header = [[ForumCell alloc] initWithFrame:CGRectMake(0, 0, 768, 240)];
+        ForumCell *header = [[ForumCell alloc] initWithFrame:CGRectMake(20, 0, 768, 240)];
         
         header.lblTopic.text = [[self.documentArray objectAtIndex:section] objectForKey:@"topic_name"];
         header.lblName.text =[eEducationAppDelegate getValurForKey:[self.documentArray objectAtIndex:section] :@"postedbyname"];

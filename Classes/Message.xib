@@ -1,1534 +1,386 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="7.10">
-	<data>
-		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">13A603</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2840</string>
-		<string key="IBDocument.AppKitVersion">1265</string>
-		<string key="IBDocument.HIToolboxVersion">695.00</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">1926</string>
-		</object>
-		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
-			<bool key="EncodedWithXMLCoder">YES</bool>
-			<string>IBProxyObject</string>
-			<string>IBUIButton</string>
-			<string>IBUIImageView</string>
-			<string>IBUILabel</string>
-			<string>IBUITableView</string>
-			<string>IBUIView</string>
-		</object>
-		<object class="NSArray" key="IBDocument.PluginDependencies">
-			<bool key="EncodedWithXMLCoder">YES</bool>
-			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-		</object>
-		<object class="NSMutableDictionary" key="IBDocument.Metadata">
-			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
-			<integer value="1" key="NS.object.0"/>
-		</object>
-		<object class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
-			<bool key="EncodedWithXMLCoder">YES</bool>
-			<object class="IBProxyObject" id="841351856">
-				<string key="IBProxiedObjectIdentifier">IBFilesOwner</string>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-			<object class="IBProxyObject" id="606714003">
-				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-			<object class="IBUIView" id="940228185">
-				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">292</int>
-				<object class="NSMutableArray" key="NSSubviews">
-					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIView" id="338956454">
-						<reference key="NSNextResponder" ref="940228185"/>
-						<int key="NSvFlags">290</int>
-						<object class="NSMutableArray" key="NSSubviews">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBUIImageView" id="60966076">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrameSize">{768, 61}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="640589493"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<int key="IBUIContentMode">1</int>
-								<bool key="IBUIMultipleTouchEnabled">YES</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<object class="NSCustomResource" key="IBUIImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">topbar@2x.png</string>
-								</object>
-							</object>
-							<object class="IBUIView" id="640589493">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{10, 3}, {80, 54}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="70738062"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<object class="NSColor" key="IBUIBackgroundColor" id="518766575">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MCAwAA</bytes>
-								</object>
-								<int key="IBUIContentMode">3</int>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-							</object>
-							<object class="IBUIView" id="70738062">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{101, 3}, {82, 54}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="388845618"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-							</object>
-							<object class="IBUIButton" id="251448638">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">289</int>
-								<string key="NSFrame">{{665, 16}, {30, 30}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="612506181"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<int key="IBUIContentHorizontalAlignment">0</int>
-								<int key="IBUIContentVerticalAlignment">0</int>
-								<object class="NSColor" key="IBUIHighlightedTitleColor" id="757595286">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MQA</bytes>
-								</object>
-								<object class="NSColor" key="IBUINormalTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-								</object>
-								<object class="NSColor" key="IBUINormalTitleShadowColor" id="390970033">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MC41AA</bytes>
-								</object>
-								<object class="NSCustomResource" key="IBUIHighlightedImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">btn_education_h@2x.png</string>
-								</object>
-								<object class="NSCustomResource" key="IBUINormalImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">btn_education@2x.png</string>
-								</object>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="431872455">
-									<string key="name">Helvetica-Bold</string>
-									<string key="family">Helvetica</string>
-									<int key="traits">2</int>
-									<double key="pointSize">15</double>
-								</object>
-								<object class="NSFont" key="IBUIFont" id="440045473">
-									<string key="NSName">Helvetica-Bold</string>
-									<double key="NSSize">15</double>
-									<int key="NSfFlags">16</int>
-								</object>
-							</object>
-							<object class="IBUILabel" id="388845618">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">290</int>
-								<string key="NSFrame">{{211, 5}, {270, 37}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="93234519"/>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<int key="IBUIContentMode">7</int>
-								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<string key="IBUIText"/>
-								<reference key="IBUIHighlightedColor" ref="757595286"/>
-								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumFontSize">11</float>
-								<int key="IBUINumberOfLines">0</int>
-								<object class="IBUIFontDescription" key="IBUIFontDescription">
-									<string key="name">HelveticaNeue</string>
-									<string key="family">Helvetica Neue</string>
-									<int key="traits">0</int>
-									<double key="pointSize">13</double>
-								</object>
-								<object class="NSFont" key="IBUIFont">
-									<string key="NSName">HelveticaNeue-Medium</string>
-									<double key="NSSize">13</double>
-									<int key="NSfFlags">16</int>
-								</object>
-								<double key="preferredMaxLayoutWidth">270</double>
-							</object>
-							<object class="IBUIView" id="93234519">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{211, 40}, {270, 20}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="845432720"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-							</object>
-							<object class="IBUIButton" id="579715370">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">289</int>
-								<string key="NSFrame">{{725, 16}, {30, 30}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="237653315"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<int key="IBUIContentHorizontalAlignment">0</int>
-								<int key="IBUIContentVerticalAlignment">0</int>
-								<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-								<object class="NSColor" key="IBUINormalTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-								</object>
-								<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-								<object class="NSCustomResource" key="IBUIHighlightedImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">btn_login_h@2x.png</string>
-								</object>
-								<object class="NSCustomResource" key="IBUINormalImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">btn_login@2x.png</string>
-								</object>
-								<reference key="IBUIFontDescription" ref="431872455"/>
-								<reference key="IBUIFont" ref="440045473"/>
-							</object>
-							<object class="IBUIButton" id="612506181">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">289</int>
-								<string key="NSFrame">{{695, 16}, {30, 30}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="579715370"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<int key="IBUIContentHorizontalAlignment">0</int>
-								<int key="IBUIContentVerticalAlignment">0</int>
-								<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-								<object class="NSColor" key="IBUINormalTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-								</object>
-								<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-								<object class="NSCustomResource" key="IBUIHighlightedImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">btn_setting_h@2x.png</string>
-								</object>
-								<object class="NSCustomResource" key="IBUINormalImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">btn_setting@2x.png</string>
-								</object>
-								<reference key="IBUIFontDescription" ref="431872455"/>
-								<reference key="IBUIFont" ref="440045473"/>
-							</object>
-							<object class="IBUIView" id="845432720">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{490, 5}, {52, 52}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="3583192"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<int key="IBUITag">12345</int>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-							</object>
-							<object class="IBUIButton" id="3583192">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">289</int>
-								<string key="NSFrame">{{490, 5}, {152, 52}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="564825873"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<int key="IBUIContentHorizontalAlignment">0</int>
-								<int key="IBUIContentVerticalAlignment">0</int>
-								<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-								<object class="NSColor" key="IBUINormalTitleColor">
-									<int key="NSColorSpace">1</int>
-									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-								</object>
-								<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-								<object class="IBUIFontDescription" key="IBUIFontDescription">
-									<int key="type">2</int>
-									<double key="pointSize">15</double>
-								</object>
-								<reference key="IBUIFont" ref="440045473"/>
-							</object>
-							<object class="IBUILabel" id="971812862">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">291</int>
-								<string key="NSFrame">{{550, 31}, {115, 12}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="251448638"/>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<int key="IBUIContentMode">7</int>
-								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<string key="IBUIText"/>
-								<object class="NSColor" key="IBUITextColor">
-									<int key="NSColorSpace">2</int>
-									<bytes key="NSRGB">MCAwLjcyOTQxMTc4MDggMC45OTIxNTY5MjI4AA</bytes>
-								</object>
-								<reference key="IBUIHighlightedColor" ref="757595286"/>
-								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumFontSize">10</float>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="979010421">
-									<string key="name">Helvetica-Bold</string>
-									<string key="family">Helvetica</string>
-									<int key="traits">2</int>
-									<double key="pointSize">10</double>
-								</object>
-								<object class="NSFont" key="IBUIFont" id="547693728">
-									<string key="NSName">Helvetica-Bold</string>
-									<double key="NSSize">10</double>
-									<int key="NSfFlags">16</int>
-								</object>
-							</object>
-							<object class="IBUILabel" id="564825873">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">291</int>
-								<string key="NSFrame">{{550, 19}, {115, 12}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="971812862"/>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<int key="IBUIContentMode">7</int>
-								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<string key="IBUIText">BIENVENIDO</string>
-								<object class="NSColor" key="IBUITextColor">
-									<int key="NSColorSpace">2</int>
-									<bytes key="NSRGB">MC41ODgyMzUyOTQxIDAuNTkyMTU2ODYyNyAwLjU5MjE1Njg2MjcAA</bytes>
-								</object>
-								<reference key="IBUIHighlightedColor" ref="757595286"/>
-								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumFontSize">10</float>
-								<reference key="IBUIFontDescription" ref="979010421"/>
-								<reference key="IBUIFont" ref="547693728"/>
-							</object>
-							<object class="IBUIView" id="237653315">
-								<reference key="NSNextResponder" ref="338956454"/>
-								<int key="NSvFlags">290</int>
-								<object class="NSMutableArray" key="NSSubviews">
-									<bool key="EncodedWithXMLCoder">YES</bool>
-									<object class="IBUIImageView" id="953905117">
-										<reference key="NSNextResponder" ref="237653315"/>
-										<int key="NSvFlags">256</int>
-										<string key="NSFrameSize">{768, 32}</string>
-										<reference key="NSSuperview" ref="237653315"/>
-										<reference key="NSNextKeyView" ref="956571748"/>
-										<bool key="IBUIOpaque">NO</bool>
-										<bool key="IBUIClipsSubviews">YES</bool>
-										<int key="IBUIContentMode">4</int>
-										<bool key="IBUIMultipleTouchEnabled">YES</bool>
-										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-										<object class="NSCustomResource" key="IBUIImage">
-											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">right_box_tab_s4_gray@2x.png</string>
-										</object>
-									</object>
-									<object class="IBUILabel" id="956571748">
-										<reference key="NSNextResponder" ref="237653315"/>
-										<int key="NSvFlags">290</int>
-										<string key="NSFrameSize">{768, 32}</string>
-										<reference key="NSSuperview" ref="237653315"/>
-										<reference key="NSNextKeyView" ref="468192"/>
-										<reference key="IBUIBackgroundColor" ref="518766575"/>
-										<bool key="IBUIOpaque">NO</bool>
-										<bool key="IBUIClipsSubviews">YES</bool>
-										<int key="IBUIContentMode">7</int>
-										<bool key="IBUIUserInteractionEnabled">NO</bool>
-										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-										<string key="IBUIText"/>
-										<object class="NSColor" key="IBUITextColor">
-											<int key="NSColorSpace">2</int>
-											<bytes key="NSRGB">MCAwLjcyOTQxMTc4MDggMC45OTIxNTY5MjI4AA</bytes>
-										</object>
-										<reference key="IBUIHighlightedColor" ref="757595286"/>
-										<int key="IBUIBaselineAdjustment">1</int>
-										<float key="IBUIMinimumFontSize">10</float>
-										<int key="IBUITextAlignment">1</int>
-										<reference key="IBUIFontDescription" ref="431872455"/>
-										<reference key="IBUIFont" ref="440045473"/>
-									</object>
-									<object class="IBUIButton" id="438372506">
-										<reference key="NSNextResponder" ref="237653315"/>
-										<int key="NSvFlags">289</int>
-										<string key="NSFrame">{{610, 1}, {150, 31}}</string>
-										<reference key="NSSuperview" ref="237653315"/>
-										<reference key="NSNextKeyView" ref="328194838"/>
-										<reference key="IBUIBackgroundColor" ref="518766575"/>
-										<bool key="IBUIOpaque">NO</bool>
-										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-										<int key="IBUIContentHorizontalAlignment">2</int>
-										<int key="IBUIContentVerticalAlignment">0</int>
-										<double key="IBUITitleEdgeInsets.top">0.0</double>
-										<double key="IBUITitleEdgeInsets.bottom">0.0</double>
-										<double key="IBUITitleEdgeInsets.left">0.0</double>
-										<double key="IBUITitleEdgeInsets.right">25</double>
-										<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-										<object class="NSColor" key="IBUINormalTitleColor">
-											<int key="NSColorSpace">2</int>
-											<bytes key="NSRGB">MCAwLjcyOTQxMTc4MDggMC45OTIxNTY5MjI4AA</bytes>
-										</object>
-										<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-										<object class="IBUIFontDescription" key="IBUIFontDescription" id="168346056">
-											<string key="name">Helvetica-Bold</string>
-											<string key="family">Helvetica</string>
-											<int key="traits">2</int>
-											<double key="pointSize">12</double>
-										</object>
-										<object class="NSFont" key="IBUIFont" id="236464586">
-											<string key="NSName">Helvetica-Bold</string>
-											<double key="NSSize">12</double>
-											<int key="NSfFlags">16</int>
-										</object>
-									</object>
-									<object class="IBUIImageView" id="328194838">
-										<reference key="NSNextResponder" ref="237653315"/>
-										<int key="NSvFlags">256</int>
-										<string key="NSFrame">{{740, 8}, {9, 16}}</string>
-										<reference key="NSSuperview" ref="237653315"/>
-										<reference key="NSNextKeyView" ref="366658911"/>
-										<bool key="IBUIOpaque">NO</bool>
-										<bool key="IBUIClipsSubviews">YES</bool>
-										<bool key="IBUIMultipleTouchEnabled">YES</bool>
-										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-										<object class="NSCustomResource" key="IBUIImage">
-											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">btn_modules@2x.png</string>
-										</object>
-									</object>
-									<object class="IBUIImageView" id="255099635">
-										<reference key="NSNextResponder" ref="237653315"/>
-										<int key="NSvFlags">256</int>
-										<string key="NSFrame">{{19, 8}, {9, 16}}</string>
-										<reference key="NSSuperview" ref="237653315"/>
-										<reference key="NSNextKeyView" ref="438372506"/>
-										<bool key="IBUIOpaque">NO</bool>
-										<bool key="IBUIClipsSubviews">YES</bool>
-										<bool key="IBUIMultipleTouchEnabled">YES</bool>
-										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-										<object class="NSCustomResource" key="IBUIImage">
-											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">btn_back@2x.png</string>
-										</object>
-									</object>
-									<object class="IBUIButton" id="468192">
-										<reference key="NSNextResponder" ref="237653315"/>
-										<int key="NSvFlags">289</int>
-										<string key="NSFrame">{{9, 1}, {150, 31}}</string>
-										<reference key="NSSuperview" ref="237653315"/>
-										<reference key="NSNextKeyView" ref="255099635"/>
-										<reference key="IBUIBackgroundColor" ref="518766575"/>
-										<bool key="IBUIOpaque">NO</bool>
-										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-										<int key="IBUIContentVerticalAlignment">0</int>
-										<double key="IBUITitleEdgeInsets.top">0.0</double>
-										<double key="IBUITitleEdgeInsets.bottom">0.0</double>
-										<double key="IBUITitleEdgeInsets.left">25</double>
-										<double key="IBUITitleEdgeInsets.right">0.0</double>
-										<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-										<object class="NSColor" key="IBUINormalTitleColor">
-											<int key="NSColorSpace">2</int>
-											<bytes key="NSRGB">MCAwLjcyOTQxMTc4MDggMC45OTIxNTY5MjI4AA</bytes>
-										</object>
-										<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-										<reference key="IBUIFontDescription" ref="168346056"/>
-										<reference key="IBUIFont" ref="236464586"/>
-									</object>
-								</object>
-								<string key="NSFrame">{{0, 60}, {768, 32}}</string>
-								<reference key="NSSuperview" ref="338956454"/>
-								<reference key="NSNextKeyView" ref="953905117"/>
-								<string key="NSReuseIdentifierKey">_NS:9</string>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-							</object>
-						</object>
-						<string key="NSFrameSize">{768, 92}</string>
-						<reference key="NSSuperview" ref="940228185"/>
-						<reference key="NSNextKeyView" ref="60966076"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<reference key="IBUIBackgroundColor" ref="518766575"/>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-					</object>
-					<object class="IBUIView" id="366658911">
-						<reference key="NSNextResponder" ref="940228185"/>
-						<int key="NSvFlags">274</int>
-						<object class="NSMutableArray" key="NSSubviews">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBUIImageView" id="156000945">
-								<reference key="NSNextResponder" ref="366658911"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrameSize">{732, 55}</string>
-								<reference key="NSSuperview" ref="366658911"/>
-								<reference key="NSNextKeyView" ref="280924582"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<bool key="IBUIMultipleTouchEnabled">YES</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<object class="NSCustomResource" key="IBUIImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">tab_s12-left@2x.png</string>
-								</object>
-								<object class="NSCustomResource" key="IBUIHighlightedImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">tab_s12-right@2x.png</string>
-								</object>
-							</object>
-							<object class="IBUIButton" id="837167565">
-								<reference key="NSNextResponder" ref="366658911"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{565, 9}, {157, 39}}</string>
-								<reference key="NSSuperview" ref="366658911"/>
-								<reference key="NSNextKeyView" ref="208774528"/>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<int key="IBUIContentHorizontalAlignment">0</int>
-								<int key="IBUIContentVerticalAlignment">0</int>
-								<double key="IBUITitleEdgeInsets.top">0.0</double>
-								<double key="IBUITitleEdgeInsets.bottom">0.0</double>
-								<double key="IBUITitleEdgeInsets.left">5</double>
-								<double key="IBUITitleEdgeInsets.right">40</double>
-								<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-								<reference key="IBUINormalTitleColor" ref="757595286"/>
-								<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">button_s12@2x.png</string>
-								</object>
-								<reference key="IBUIFontDescription" ref="168346056"/>
-								<reference key="IBUIFont" ref="236464586"/>
-							</object>
-							<object class="IBUIButton" id="280924582">
-								<reference key="NSNextResponder" ref="366658911"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{2, 6}, {100, 45}}</string>
-								<reference key="NSSuperview" ref="366658911"/>
-								<reference key="NSNextKeyView" ref="398662937"/>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<int key="IBUIContentHorizontalAlignment">0</int>
-								<int key="IBUIContentVerticalAlignment">0</int>
-								<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-								<reference key="IBUINormalTitleColor" ref="757595286"/>
-								<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-								<object class="IBUIFontDescription" key="IBUIFontDescription" id="929974269">
-									<string key="name">HelveticaNeue-Bold</string>
-									<string key="family">Helvetica Neue</string>
-									<int key="traits">2</int>
-									<double key="pointSize">16</double>
-								</object>
-								<object class="NSFont" key="IBUIFont" id="274976215">
-									<string key="NSName">HelveticaNeue-Bold</string>
-									<double key="NSSize">16</double>
-									<int key="NSfFlags">16</int>
-								</object>
-							</object>
-							<object class="IBUIButton" id="398662937">
-								<reference key="NSNextResponder" ref="366658911"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{106, 6}, {120, 45}}</string>
-								<reference key="NSSuperview" ref="366658911"/>
-								<reference key="NSNextKeyView" ref="837167565"/>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<int key="IBUIContentHorizontalAlignment">0</int>
-								<int key="IBUIContentVerticalAlignment">0</int>
-								<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-								<reference key="IBUINormalTitleColor" ref="757595286"/>
-								<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-								<reference key="IBUIFontDescription" ref="929974269"/>
-								<reference key="IBUIFont" ref="274976215"/>
-							</object>
-							<object class="IBUIImageView" id="208774528">
-								<reference key="NSNextResponder" ref="366658911"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{0, 55}, {732, 776}}</string>
-								<reference key="NSSuperview" ref="366658911"/>
-								<reference key="NSNextKeyView" ref="897110161"/>
-								<bool key="IBUIOpaque">NO</bool>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<bool key="IBUIMultipleTouchEnabled">YES</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<object class="NSCustomResource" key="IBUIImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">box_s12@2x.png</string>
-								</object>
-							</object>
-							<object class="IBUITableView" id="897110161">
-								<reference key="NSNextResponder" ref="366658911"/>
-								<int key="NSvFlags">274</int>
-								<string key="NSFrame">{{5, 57}, {722, 769}}</string>
-								<reference key="NSSuperview" ref="366658911"/>
-								<reference key="NSNextKeyView" ref="467928833"/>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<bool key="IBUIAlwaysBounceVertical">YES</bool>
-								<int key="IBUISectionIndexMinimumDisplayRowCount">0</int>
-								<float key="IBUIRowHeight">44</float>
-								<float key="IBUISectionHeaderHeight">22</float>
-								<float key="IBUISectionFooterHeight">22</float>
-							</object>
-							<object class="IBUITableView" id="467928833">
-								<reference key="NSNextResponder" ref="366658911"/>
-								<int key="NSvFlags">274</int>
-								<string key="NSFrame">{{5, 57}, {722, 769}}</string>
-								<reference key="NSSuperview" ref="366658911"/>
-								<reference key="IBUIBackgroundColor" ref="518766575"/>
-								<bool key="IBUIClipsSubviews">YES</bool>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<bool key="IBUIAlwaysBounceVertical">YES</bool>
-								<int key="IBUISectionIndexMinimumDisplayRowCount">0</int>
-								<bool key="IBUIShowsSelectionImmediatelyOnTouchBegin">YES</bool>
-								<float key="IBUIRowHeight">44</float>
-								<float key="IBUISectionHeaderHeight">22</float>
-								<float key="IBUISectionFooterHeight">22</float>
-							</object>
-						</object>
-						<string key="NSFrame">{{18, 106}, {732, 830}}</string>
-						<reference key="NSSuperview" ref="940228185"/>
-						<reference key="NSNextKeyView" ref="156000945"/>
-						<string key="NSReuseIdentifierKey">_NS:10</string>
-						<reference key="IBUIBackgroundColor" ref="518766575"/>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-					</object>
-				</object>
-				<string key="NSFrame">{{0, 20}, {768, 955}}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSNextKeyView" ref="338956454"/>
-				<reference key="IBUIBackgroundColor" ref="518766575"/>
-				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-				<int key="IBUITag">999</int>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
-					<int key="IBUIStatusBarStyle">2</int>
-				</object>
-				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-			<object class="IBUIView" id="429207991">
-				<nil key="NSNextResponder"/>
-				<int key="NSvFlags">292</int>
-				<object class="NSMutableArray" key="NSSubviews">
-					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIImageView" id="907770310">
-						<reference key="NSNextResponder" ref="429207991"/>
-						<int key="NSvFlags">256</int>
-						<string key="NSFrameSize">{732, 816}</string>
-						<reference key="NSSuperview" ref="429207991"/>
-						<reference key="NSNextKeyView" ref="544845563"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">box_s13@2x.png</string>
-						</object>
-					</object>
-					<object class="IBUIButton" id="896248831">
-						<reference key="NSNextResponder" ref="429207991"/>
-						<int key="NSvFlags">289</int>
-						<string key="NSFrame">{{25, 754}, {116, 36}}</string>
-						<reference key="NSSuperview" ref="429207991"/>
-						<reference key="NSNextKeyView" ref="666537801"/>
-						<reference key="IBUIBackgroundColor" ref="518766575"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<double key="IBUITitleEdgeInsets.top">0.0</double>
-						<double key="IBUITitleEdgeInsets.bottom">0.0</double>
-						<double key="IBUITitleEdgeInsets.left">40</double>
-						<double key="IBUITitleEdgeInsets.right">5</double>
-						<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-						<reference key="IBUINormalTitleColor" ref="757595286"/>
-						<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">button_s16-1@2x.png</string>
-						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="84917571">
-							<string key="name">HelveticaNeue-Bold</string>
-							<string key="family">Helvetica Neue</string>
-							<int key="traits">2</int>
-							<double key="pointSize">11</double>
-						</object>
-						<object class="NSFont" key="IBUIFont" id="51404052">
-							<string key="NSName">HelveticaNeue-Bold</string>
-							<double key="NSSize">11</double>
-							<int key="NSfFlags">16</int>
-						</object>
-					</object>
-					<object class="IBUIButton" id="666537801">
-						<reference key="NSNextResponder" ref="429207991"/>
-						<int key="NSvFlags">289</int>
-						<string key="NSFrame">{{591, 754}, {116, 36}}</string>
-						<reference key="NSSuperview" ref="429207991"/>
-						<reference key="IBUIBackgroundColor" ref="518766575"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<double key="IBUITitleEdgeInsets.top">0.0</double>
-						<double key="IBUITitleEdgeInsets.bottom">0.0</double>
-						<double key="IBUITitleEdgeInsets.left">5</double>
-						<double key="IBUITitleEdgeInsets.right">37</double>
-						<reference key="IBUIHighlightedTitleColor" ref="757595286"/>
-						<reference key="IBUINormalTitleColor" ref="757595286"/>
-						<reference key="IBUINormalTitleShadowColor" ref="390970033"/>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">button_s16@2x.png</string>
-						</object>
-						<reference key="IBUIFontDescription" ref="84917571"/>
-						<reference key="IBUIFont" ref="51404052"/>
-					</object>
-					<object class="IBUILabel" id="544845563">
-						<reference key="NSNextResponder" ref="429207991"/>
-						<int key="NSvFlags">256</int>
-						<string key="NSFrame">{{25, 14}, {682, 30}}</string>
-						<reference key="NSSuperview" ref="429207991"/>
-						<reference key="NSNextKeyView" ref="962485984"/>
-						<reference key="IBUIBackgroundColor" ref="518766575"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText"/>
-						<object class="NSColor" key="IBUITextColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4wNTA5ODAzOTIxNiAwLjE5NjA3ODQzMTQgMC4yMzEzNzI1NDkAA</bytes>
-						</object>
-						<reference key="IBUIHighlightedColor" ref="757595286"/>
-						<int key="IBUIBaselineAdjustment">1</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<string key="name">HelveticaNeue-Bold</string>
-							<string key="family">Helvetica Neue</string>
-							<int key="traits">2</int>
-							<double key="pointSize">17</double>
-						</object>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">HelveticaNeue-Bold</string>
-							<double key="NSSize">17</double>
-							<int key="NSfFlags">16</int>
-						</object>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-					</object>
-					<object class="IBUITableView" id="962485984">
-						<reference key="NSNextResponder" ref="429207991"/>
-						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{4, 81}, {722, 628}}</string>
-						<reference key="NSSuperview" ref="429207991"/>
-						<reference key="NSNextKeyView" ref="896248831"/>
-						<reference key="IBUIBackgroundColor" ref="518766575"/>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<bool key="IBUIAlwaysBounceVertical">YES</bool>
-						<int key="IBUISectionIndexMinimumDisplayRowCount">0</int>
-						<float key="IBUIRowHeight">44</float>
-						<float key="IBUISectionHeaderHeight">22</float>
-						<float key="IBUISectionFooterHeight">22</float>
-					</object>
-				</object>
-				<string key="NSFrameSize">{732, 816}</string>
-				<reference key="NSNextKeyView" ref="907770310"/>
-				<string key="NSReuseIdentifierKey">_NS:9</string>
-				<reference key="IBUIBackgroundColor" ref="518766575"/>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-		</object>
-		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<object class="NSMutableArray" key="connectionRecords">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">view</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="940228185"/>
-					</object>
-					<int key="connectionID">21</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">imgProfile</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="845432720"/>
-					</object>
-					<int key="connectionID">80</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">lblProfileBlueName</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="971812862"/>
-					</object>
-					<int key="connectionID">81</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">lblProfileGrayName</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="564825873"/>
-					</object>
-					<int key="connectionID">82</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">lblTitle</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="956571748"/>
-					</object>
-					<int key="connectionID">83</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">lblTopCourse</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="388845618"/>
-					</object>
-					<int key="connectionID">84</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">lblTopDuration</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="93234519"/>
-					</object>
-					<int key="connectionID">85</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnHome</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="468192"/>
-					</object>
-					<int key="connectionID">92</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">tblConversation</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="962485984"/>
-					</object>
-					<int key="connectionID">120</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">viewSlider</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="429207991"/>
-					</object>
-					<int key="connectionID">121</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnPrev</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="896248831"/>
-					</object>
-					<int key="connectionID">123</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnReply</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="666537801"/>
-					</object>
-					<int key="connectionID">126</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">lblSublect</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="544845563"/>
-					</object>
-					<int key="connectionID">127</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">imgStrip</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="156000945"/>
-					</object>
-					<int key="connectionID">104</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnCompose</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="837167565"/>
-					</object>
-					<int key="connectionID">101</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnInbox</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="280924582"/>
-					</object>
-					<int key="connectionID">102</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnSent</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="398662937"/>
-					</object>
-					<int key="connectionID">103</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">tblViewInbox</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="897110161"/>
-					</object>
-					<int key="connectionID">108</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">tblViewSent</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="467928833"/>
-					</object>
-					<int key="connectionID">109</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">viewMainContainer</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="366658911"/>
-					</object>
-					<int key="connectionID">130</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnModule</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="438372506"/>
-					</object>
-					<int key="connectionID">135</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">imgLogo</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="640589493"/>
-					</object>
-					<int key="connectionID">136</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">imgLogoStatic</string>
-						<reference key="source" ref="841351856"/>
-						<reference key="destination" ref="70738062"/>
-					</object>
-					<int key="connectionID">137</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">dataSource</string>
-						<reference key="source" ref="467928833"/>
-						<reference key="destination" ref="841351856"/>
-					</object>
-					<int key="connectionID">27</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="467928833"/>
-						<reference key="destination" ref="841351856"/>
-					</object>
-					<int key="connectionID">28</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="897110161"/>
-						<reference key="destination" ref="841351856"/>
-					</object>
-					<int key="connectionID">31</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">dataSource</string>
-						<reference key="source" ref="897110161"/>
-						<reference key="destination" ref="841351856"/>
-					</object>
-					<int key="connectionID">30</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnStudentsClicked:</string>
-						<reference key="source" ref="251448638"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">90</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">proImgClicked:</string>
-						<reference key="source" ref="3583192"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">91</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnLogoutClicked:</string>
-						<reference key="source" ref="579715370"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">88</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnSettingsClicked:</string>
-						<reference key="source" ref="612506181"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">89</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnBackClicked:</string>
-						<reference key="source" ref="468192"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">87</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnInBoxClicked:</string>
-						<reference key="source" ref="280924582"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">106</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnSentClicked:</string>
-						<reference key="source" ref="398662937"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">107</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnComposeClicked:</string>
-						<reference key="source" ref="837167565"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">105</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">dataSource</string>
-						<reference key="source" ref="962485984"/>
-						<reference key="destination" ref="841351856"/>
-					</object>
-					<int key="connectionID">113</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="962485984"/>
-						<reference key="destination" ref="841351856"/>
-					</object>
-					<int key="connectionID">114</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnPrevClicked:</string>
-						<reference key="source" ref="896248831"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">124</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnReplyClicked:</string>
-						<reference key="source" ref="666537801"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">125</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">btnModuleClicked:</string>
-						<reference key="source" ref="438372506"/>
-						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">138</int>
-				</object>
-			</object>
-			<object class="IBMutableOrderedSet" key="objectRecords">
-				<object class="NSArray" key="orderedObjects">
-					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBObjectRecord">
-						<int key="objectID">0</int>
-						<object class="NSArray" key="object" id="0">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
-						<reference key="children" ref="1000"/>
-						<nil key="parent"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">-1</int>
-						<reference key="object" ref="841351856"/>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">File's Owner</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">-2</int>
-						<reference key="object" ref="606714003"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">4</int>
-						<reference key="object" ref="940228185"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="338956454"/>
-							<reference ref="366658911"/>
-						</object>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">64</int>
-						<reference key="object" ref="338956454"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="251448638"/>
-							<reference ref="60966076"/>
-							<reference ref="845432720"/>
-							<reference ref="3583192"/>
-							<reference ref="237653315"/>
-							<reference ref="579715370"/>
-							<reference ref="971812862"/>
-							<reference ref="564825873"/>
-							<reference ref="612506181"/>
-							<reference ref="388845618"/>
-							<reference ref="93234519"/>
-							<reference ref="640589493"/>
-							<reference ref="70738062"/>
-						</object>
-						<reference key="parent" ref="940228185"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">65</int>
-						<reference key="object" ref="251448638"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">66</int>
-						<reference key="object" ref="60966076"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">67</int>
-						<reference key="object" ref="845432720"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">68</int>
-						<reference key="object" ref="3583192"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">69</int>
-						<reference key="object" ref="237653315"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="956571748"/>
-							<reference ref="255099635"/>
-							<reference ref="468192"/>
-							<reference ref="953905117"/>
-							<reference ref="438372506"/>
-							<reference ref="328194838"/>
-						</object>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">70</int>
-						<reference key="object" ref="579715370"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">71</int>
-						<reference key="object" ref="971812862"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">72</int>
-						<reference key="object" ref="564825873"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">73</int>
-						<reference key="object" ref="612506181"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">74</int>
-						<reference key="object" ref="388845618"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">75</int>
-						<reference key="object" ref="93234519"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">76</int>
-						<reference key="object" ref="956571748"/>
-						<reference key="parent" ref="237653315"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">77</int>
-						<reference key="object" ref="255099635"/>
-						<reference key="parent" ref="237653315"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">78</int>
-						<reference key="object" ref="468192"/>
-						<reference key="parent" ref="237653315"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">79</int>
-						<reference key="object" ref="953905117"/>
-						<reference key="parent" ref="237653315"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">110</int>
-						<reference key="object" ref="429207991"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="907770310"/>
-							<reference ref="962485984"/>
-							<reference ref="544845563"/>
-							<reference ref="896248831"/>
-							<reference ref="666537801"/>
-						</object>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">111</int>
-						<reference key="object" ref="907770310"/>
-						<reference key="parent" ref="429207991"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">112</int>
-						<reference key="object" ref="962485984"/>
-						<reference key="parent" ref="429207991"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">115</int>
-						<reference key="object" ref="544845563"/>
-						<reference key="parent" ref="429207991"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">116</int>
-						<reference key="object" ref="896248831"/>
-						<reference key="parent" ref="429207991"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">118</int>
-						<reference key="object" ref="666537801"/>
-						<reference key="parent" ref="429207991"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">129</int>
-						<reference key="object" ref="366658911"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="467928833"/>
-							<reference ref="897110161"/>
-							<reference ref="208774528"/>
-							<reference ref="398662937"/>
-							<reference ref="280924582"/>
-							<reference ref="837167565"/>
-							<reference ref="156000945"/>
-						</object>
-						<reference key="parent" ref="940228185"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">95</int>
-						<reference key="object" ref="156000945"/>
-						<reference key="parent" ref="366658911"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">100</int>
-						<reference key="object" ref="837167565"/>
-						<reference key="parent" ref="366658911"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">96</int>
-						<reference key="object" ref="280924582"/>
-						<reference key="parent" ref="366658911"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">98</int>
-						<reference key="object" ref="398662937"/>
-						<reference key="parent" ref="366658911"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">94</int>
-						<reference key="object" ref="208774528"/>
-						<reference key="parent" ref="366658911"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">24</int>
-						<reference key="object" ref="897110161"/>
-						<reference key="parent" ref="366658911"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">6</int>
-						<reference key="object" ref="467928833"/>
-						<reference key="parent" ref="366658911"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">131</int>
-						<reference key="object" ref="640589493"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">132</int>
-						<reference key="object" ref="70738062"/>
-						<reference key="parent" ref="338956454"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">133</int>
-						<reference key="object" ref="438372506"/>
-						<reference key="parent" ref="237653315"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">134</int>
-						<reference key="object" ref="328194838"/>
-						<reference key="parent" ref="237653315"/>
-					</object>
-				</object>
-			</object>
-			<object class="NSMutableDictionary" key="flattenedProperties">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<object class="NSArray" key="dict.sortedKeys">
-					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>-1.CustomClassName</string>
-					<string>-1.IBPluginDependency</string>
-					<string>-2.CustomClassName</string>
-					<string>-2.IBPluginDependency</string>
-					<string>100.IBPluginDependency</string>
-					<string>100.IBUIButtonInspectorSelectedEdgeInsetMetadataKey</string>
-					<string>100.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>110.IBPluginDependency</string>
-					<string>111.IBPluginDependency</string>
-					<string>112.IBPluginDependency</string>
-					<string>115.IBPluginDependency</string>
-					<string>116.IBPluginDependency</string>
-					<string>116.IBUIButtonInspectorSelectedEdgeInsetMetadataKey</string>
-					<string>116.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>118.IBPluginDependency</string>
-					<string>118.IBUIButtonInspectorSelectedEdgeInsetMetadataKey</string>
-					<string>118.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>129.IBPluginDependency</string>
-					<string>131.CustomClassName</string>
-					<string>131.IBPluginDependency</string>
-					<string>132.CustomClassName</string>
-					<string>132.IBPluginDependency</string>
-					<string>133.IBPluginDependency</string>
-					<string>133.IBUIButtonInspectorSelectedEdgeInsetMetadataKey</string>
-					<string>133.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>134.IBPluginDependency</string>
-					<string>24.IBPluginDependency</string>
-					<string>4.IBPluginDependency</string>
-					<string>6.IBPluginDependency</string>
-					<string>64.IBPluginDependency</string>
-					<string>65.IBPluginDependency</string>
-					<string>65.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>66.IBPluginDependency</string>
-					<string>67.CustomClassName</string>
-					<string>67.IBPluginDependency</string>
-					<string>68.IBPluginDependency</string>
-					<string>69.IBPluginDependency</string>
-					<string>70.IBPluginDependency</string>
-					<string>70.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>71.IBPluginDependency</string>
-					<string>72.IBPluginDependency</string>
-					<string>73.IBPluginDependency</string>
-					<string>73.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>74.IBPluginDependency</string>
-					<string>75.CustomClassName</string>
-					<string>75.IBPluginDependency</string>
-					<string>76.IBPluginDependency</string>
-					<string>77.IBPluginDependency</string>
-					<string>78.IBPluginDependency</string>
-					<string>78.IBUIButtonInspectorSelectedEdgeInsetMetadataKey</string>
-					<string>78.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>79.IBPluginDependency</string>
-					<string>94.IBPluginDependency</string>
-					<string>95.IBPluginDependency</string>
-					<string>96.IBPluginDependency</string>
-					<string>96.IBUIButtonInspectorSelectedEdgeInsetMetadataKey</string>
-					<string>96.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-					<string>98.IBPluginDependency</string>
-					<string>98.IBUIButtonInspectorSelectedEdgeInsetMetadataKey</string>
-					<string>98.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
-				</object>
-				<object class="NSArray" key="dict.values">
-					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>Message</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>UIResponder</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="1"/>
-					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="2"/>
-					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="1"/>
-					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>AsyncImageView</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>AsyncImageView</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="2"/>
-					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>AsyncImageView</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="1"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>RTLabel</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="1"/>
-					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="2"/>
-					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="2"/>
-					<real value="0.0"/>
-				</object>
-			</object>
-			<object class="NSMutableDictionary" key="unlocalizedProperties">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<reference key="dict.sortedKeys" ref="0"/>
-				<reference key="dict.values" ref="0"/>
-			</object>
-			<nil key="activeLocalization"/>
-			<object class="NSMutableDictionary" key="localizations">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<reference key="dict.sortedKeys" ref="0"/>
-				<reference key="dict.values" ref="0"/>
-			</object>
-			<nil key="sourceID"/>
-			<int key="maxID">138</int>
-		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
-		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
-			<integer value="3100" key="NS.object.0"/>
-		</object>
-		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<bool key="EncodedWithXMLCoder">YES</bool>
-			<object class="NSArray" key="dict.sortedKeys">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>box_s12@2x.png</string>
-				<string>box_s13@2x.png</string>
-				<string>btn_back@2x.png</string>
-				<string>btn_education@2x.png</string>
-				<string>btn_education_h@2x.png</string>
-				<string>btn_login@2x.png</string>
-				<string>btn_login_h@2x.png</string>
-				<string>btn_modules@2x.png</string>
-				<string>btn_setting@2x.png</string>
-				<string>btn_setting_h@2x.png</string>
-				<string>button_s12@2x.png</string>
-				<string>button_s16-1@2x.png</string>
-				<string>button_s16@2x.png</string>
-				<string>right_box_tab_s4_gray@2x.png</string>
-				<string>tab_s12-left@2x.png</string>
-				<string>tab_s12-right@2x.png</string>
-				<string>topbar@2x.png</string>
-			</object>
-			<object class="NSArray" key="dict.values">
-				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{732, 776}</string>
-				<string>{732, 816}</string>
-				<string>{18, 32}</string>
-				<string>{60, 60}</string>
-				<string>{60, 60}</string>
-				<string>{60, 60}</string>
-				<string>{60, 60}</string>
-				<string>{18, 32}</string>
-				<string>{60, 60}</string>
-				<string>{60, 60}</string>
-				<string>{314, 78}</string>
-				<string>{232, 72}</string>
-				<string>{232, 72}</string>
-				<string>{980, 88}</string>
-				<string>{1464, 110}</string>
-				<string>{1464, 110}</string>
-				<string>{1536, 122}</string>
-			</object>
-		</object>
-		<string key="IBCocoaTouchPluginVersion">1926</string>
-	</data>
-</archive>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Message">
+            <connections>
+                <outlet property="btnCompose" destination="100" id="101"/>
+                <outlet property="btnHome" destination="78" id="92"/>
+                <outlet property="btnInbox" destination="96" id="102"/>
+                <outlet property="btnModule" destination="133" id="135"/>
+                <outlet property="btnPrev" destination="116" id="123"/>
+                <outlet property="btnReply" destination="118" id="126"/>
+                <outlet property="btnSent" destination="98" id="103"/>
+                <outlet property="imgLogo" destination="131" id="136"/>
+                <outlet property="imgLogoStatic" destination="132" id="137"/>
+                <outlet property="imgProfile" destination="67" id="80"/>
+                <outlet property="imgStrip" destination="95" id="104"/>
+                <outlet property="lblProfileBlueName" destination="71" id="81"/>
+                <outlet property="lblProfileGrayName" destination="72" id="82"/>
+                <outlet property="lblSublect" destination="115" id="127"/>
+                <outlet property="lblTitle" destination="76" id="83"/>
+                <outlet property="lblTopCourse" destination="74" id="84"/>
+                <outlet property="lblTopDuration" destination="75" id="85"/>
+                <outlet property="tblConversation" destination="112" id="120"/>
+                <outlet property="tblViewInbox" destination="24" id="108"/>
+                <outlet property="tblViewSent" destination="6" id="109"/>
+                <outlet property="view" destination="4" id="21"/>
+                <outlet property="viewMainContainer" destination="129" id="130"/>
+                <outlet property="viewSlider" destination="110" id="121"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" tag="999" contentMode="scaleToFill" id="4">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="64">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="92"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="topbar.png" id="66">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="61"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <view contentMode="redraw" id="131" customClass="AsyncImageView">
+                            <rect key="frame" x="10" y="3" width="80" height="54"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="132" customClass="AsyncImageView">
+                            <rect key="frame" x="101" y="3" width="82" height="54"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="65">
+                            <rect key="frame" x="665" y="16" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="btn_education.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="btn_education_h.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnStudentsClicked:" destination="-1" eventType="touchUpInside" id="90"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="11" id="74">
+                            <rect key="frame" x="211" y="5" width="270" height="37"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="75" customClass="RTLabel">
+                            <rect key="frame" x="211" y="40" width="270" height="20"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="70">
+                            <rect key="frame" x="725" y="16" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="btn_login.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="btn_login_h.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnLogoutClicked:" destination="-1" eventType="touchUpInside" id="88"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="73">
+                            <rect key="frame" x="695" y="16" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="btn_setting.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="btn_setting_h.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnSettingsClicked:" destination="-1" eventType="touchUpInside" id="89"/>
+                            </connections>
+                        </button>
+                        <view tag="12345" contentMode="scaleToFill" id="67" customClass="AsyncImageView">
+                            <rect key="frame" x="490" y="5" width="52" height="52"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="68">
+                            <rect key="frame" x="490" y="5" width="152" height="52"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="proImgClicked:" destination="-1" eventType="touchUpInside" id="91"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="71">
+                            <rect key="frame" x="550" y="31" width="115" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="10"/>
+                            <color key="textColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="BIENVENIDO" lineBreakMode="tailTruncation" minimumFontSize="10" id="72">
+                            <rect key="frame" x="550" y="19" width="115" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="10"/>
+                            <color key="textColor" red="0.58823529409999997" green="0.59215686270000001" blue="0.59215686270000001" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="69">
+                            <rect key="frame" x="0.0" y="60" width="768" height="32"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="right_box_tab_s4_gray.png" id="79">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="32"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="76">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                    <color key="textColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="133">
+                                    <rect key="frame" x="610" y="1" width="150" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="25" maxY="0.0"/>
+                                    <state key="normal">
+                                        <color key="titleColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnModuleClicked:" destination="-1" eventType="touchUpInside" id="138"/>
+                                    </connections>
+                                </button>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="btn_modules.png" id="134">
+                                    <rect key="frame" x="740" y="8" width="9" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="btn_back.png" id="77">
+                                    <rect key="frame" x="19" y="8" width="9" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="78">
+                                    <rect key="frame" x="9" y="1" width="150" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                    <inset key="titleEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal">
+                                        <color key="titleColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnBackClicked:" destination="-1" eventType="touchUpInside" id="87"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="129">
+                    <rect key="frame" x="18" y="106" width="732" height="899"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="tab_s12-left.png" highlightedImage="tab_s12-right.png" id="95">
+                            <rect key="frame" x="0.0" y="0.0" width="732" height="55"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="100">
+                            <rect key="frame" x="565" y="9" width="157" height="39"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="40" maxY="0.0"/>
+                            <state key="normal" backgroundImage="button_s12.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnComposeClicked:" destination="-1" eventType="touchUpInside" id="105"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="96">
+                            <rect key="frame" x="2" y="6" width="100" height="45"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnInBoxClicked:" destination="-1" eventType="touchUpInside" id="106"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="98">
+                            <rect key="frame" x="106" y="6" width="120" height="45"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnSentClicked:" destination="-1" eventType="touchUpInside" id="107"/>
+                            </connections>
+                        </button>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="box_s12.png" id="94">
+                            <rect key="frame" x="0.0" y="55" width="732" height="776"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="24">
+                            <rect key="frame" x="5" y="57" width="722" height="838"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="30"/>
+                                <outlet property="delegate" destination="-1" id="31"/>
+                            </connections>
+                        </tableView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6">
+                            <rect key="frame" x="5" y="57" width="722" height="838"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="27"/>
+                                <outlet property="delegate" destination="-1" id="28"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="110">
+            <rect key="frame" x="0.0" y="0.0" width="732" height="816"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="box_s13.png" id="111">
+                    <rect key="frame" x="0.0" y="0.0" width="732" height="816"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="116">
+                    <rect key="frame" x="25" y="754" width="116" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="40" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" backgroundImage="button_s16-1.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnPrevClicked:" destination="-1" eventType="touchUpInside" id="124"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="118">
+                    <rect key="frame" x="591" y="754" width="116" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="37" maxY="0.0"/>
+                    <state key="normal" backgroundImage="button_s16.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnReplyClicked:" destination="-1" eventType="touchUpInside" id="125"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="115">
+                    <rect key="frame" x="25" y="14" width="682" height="30"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.050980392159999999" green="0.1960784314" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="112">
+                    <rect key="frame" x="4" y="81" width="722" height="628"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="113"/>
+                        <outlet property="delegate" destination="-1" id="114"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="box_s12.png" width="732" height="776"/>
+        <image name="box_s13.png" width="732" height="816"/>
+        <image name="btn_back.png" width="9" height="16"/>
+        <image name="btn_education.png" width="30" height="30"/>
+        <image name="btn_education_h.png" width="30" height="30"/>
+        <image name="btn_login.png" width="30" height="30"/>
+        <image name="btn_login_h.png" width="30" height="30"/>
+        <image name="btn_modules.png" width="9" height="16"/>
+        <image name="btn_setting.png" width="30" height="30"/>
+        <image name="btn_setting_h.png" width="30" height="30"/>
+        <image name="button_s12.png" width="157" height="39"/>
+        <image name="button_s16-1.png" width="116" height="36"/>
+        <image name="button_s16.png" width="116" height="36"/>
+        <image name="right_box_tab_s4_gray.png" width="490" height="44"/>
+        <image name="tab_s12-left.png" width="732" height="55"/>
+        <image name="tab_s12-right.png" width="732" height="55"/>
+        <image name="topbar.png" width="768" height="61"/>
+    </resources>
+</document>

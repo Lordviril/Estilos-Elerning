@@ -193,6 +193,8 @@
     txtDesc.userInteractionEnabled = NO;
     txtDesc.backgroundColor = [UIColor clearColor];
     txtDesc.textColor = [UIColor whiteColor];
+    txtDesc.scrollEnabled = true;
+    txtDesc.scrollsToTop = true;
     tableViewController.view.frame = CGRectMake(0,0, 280, [self getHeight:txtDesc] + 10);
 
     [tableViewController.view addSubview:txtDesc];
@@ -293,6 +295,7 @@
 
 - (void)GMGridView:(GMGridView *)gridView didTapOnItemAtIndex:(NSInteger)position
 {
+    
 }
 
 #pragma mark - Jshon methods

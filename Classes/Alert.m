@@ -406,10 +406,11 @@
     
     UITextView *txtDesc = [[UITextView alloc] initWithFrame:CGRectMake(0,0, 280, 80)];
     txtDesc.text = @"Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna taur cillium adipisicing pecu";
-    txtDesc.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
+    txtDesc.font = [UIFont fontWithName:@"HelveticaNeue" size:38];
     txtDesc.userInteractionEnabled = NO;
     txtDesc.backgroundColor = [UIColor clearColor];
     txtDesc.textColor = [UIColor whiteColor];
+    txtDesc.scrollEnabled = true;
     [tableViewController.view addSubview:txtDesc];
     
     TSPopoverController *popoverController = [[TSPopoverController alloc] initWithContentViewController:tableViewController];
