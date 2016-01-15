@@ -31,7 +31,7 @@
             <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" id="4">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="backgroundnuevo.jpg" id="4">
                     <rect key="frame" x="0.0" y="-20" width="768" height="1044"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
@@ -297,7 +297,7 @@
         </view>
     </objects>
     <resources>
-        <image name="background.png" width="768" height="1024"/>
+        <image name="backgroundnuevo.jpg" width="768" height="1024"/>
         <image name="box_s14.png" width="732" height="449"/>
         <image name="btn_back.png" width="9" height="16"/>
         <image name="btn_education.png" width="30" height="30"/>
