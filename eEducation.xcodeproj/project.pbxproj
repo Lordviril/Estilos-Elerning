@@ -39,7 +39,6 @@
 		275F704518349D4B0088FBEC /* arrow_popup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6F9118349D4B0088FBEC /* arrow_popup@2x.png */; };
 		275F704618349D4B0088FBEC /* arrow_prev@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6F9218349D4B0088FBEC /* arrow_prev@2x.png */; };
 		275F704718349D4B0088FBEC /* arrow_s5B@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6F9318349D4B0088FBEC /* arrow_s5B@2x.png */; };
-		275F704818349D4B0088FBEC /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6F9418349D4B0088FBEC /* background@2x.png */; };
 		275F704918349D4B0088FBEC /* bg_s2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6F9518349D4B0088FBEC /* bg_s2@2x.png */; };
 		275F705518349D4B0088FBEC /* bottom_box_s3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FA218349D4B0088FBEC /* bottom_box_s3@2x.png */; };
 		275F705618349D4B0088FBEC /* box_calender@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FA318349D4B0088FBEC /* box_calender@2x.png */; };
@@ -117,7 +116,6 @@
 		275F709E18349D4B0088FBEC /* circle_s4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FEB18349D4B0088FBEC /* circle_s4@2x.png */; };
 		275F709F18349D4B0088FBEC /* circle_s4_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FEC18349D4B0088FBEC /* circle_s4_h@2x.png */; };
 		275F70A018349D4B0088FBEC /* circle_topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FED18349D4B0088FBEC /* circle_topbar@2x.png */; };
-		275F70A118349D4B0088FBEC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FEE18349D4B0088FBEC /* Default@2x.png */; };
 		275F70A218349D4B0088FBEC /* dropdown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FEF18349D4B0088FBEC /* dropdown@2x.png */; };
 		275F70A318349D4B0088FBEC /* icon-watch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FF018349D4B0088FBEC /* icon-watch@2x.png */; };
 		275F70A418349D4B0088FBEC /* icon_calender-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F6FF118349D4B0088FBEC /* icon_calender-1@2x.png */; };
@@ -478,7 +476,6 @@
 		275F6F9118349D4B0088FBEC /* arrow_popup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_popup@2x.png"; sourceTree = "<group>"; };
 		275F6F9218349D4B0088FBEC /* arrow_prev@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_prev@2x.png"; sourceTree = "<group>"; };
 		275F6F9318349D4B0088FBEC /* arrow_s5B@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_s5B@2x.png"; sourceTree = "<group>"; };
-		275F6F9418349D4B0088FBEC /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		275F6F9518349D4B0088FBEC /* bg_s2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_s2@2x.png"; sourceTree = "<group>"; };
 		275F6FA218349D4B0088FBEC /* bottom_box_s3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_box_s3@2x.png"; sourceTree = "<group>"; };
 		275F6FA318349D4B0088FBEC /* box_calender@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box_calender@2x.png"; sourceTree = "<group>"; };
@@ -556,7 +553,6 @@
 		275F6FEB18349D4B0088FBEC /* circle_s4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_s4@2x.png"; sourceTree = "<group>"; };
 		275F6FEC18349D4B0088FBEC /* circle_s4_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_s4_h@2x.png"; sourceTree = "<group>"; };
 		275F6FED18349D4B0088FBEC /* circle_topbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle_topbar@2x.png"; sourceTree = "<group>"; };
-		275F6FEE18349D4B0088FBEC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		275F6FEF18349D4B0088FBEC /* dropdown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown@2x.png"; sourceTree = "<group>"; };
 		275F6FF018349D4B0088FBEC /* icon-watch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-watch@2x.png"; sourceTree = "<group>"; };
 		275F6FF118349D4B0088FBEC /* icon_calender-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_calender-1@2x.png"; sourceTree = "<group>"; };
@@ -1147,7 +1143,6 @@
 				275F6F9118349D4B0088FBEC /* arrow_popup@2x.png */,
 				275F6F9218349D4B0088FBEC /* arrow_prev@2x.png */,
 				275F6F9318349D4B0088FBEC /* arrow_s5B@2x.png */,
-				275F6F9418349D4B0088FBEC /* background@2x.png */,
 				275F6F9518349D4B0088FBEC /* bg_s2@2x.png */,
 				275F6FA218349D4B0088FBEC /* bottom_box_s3@2x.png */,
 				275F6FA318349D4B0088FBEC /* box_calender@2x.png */,
@@ -1225,7 +1220,6 @@
 				275F6FEB18349D4B0088FBEC /* circle_s4@2x.png */,
 				275F6FEC18349D4B0088FBEC /* circle_s4_h@2x.png */,
 				275F6FED18349D4B0088FBEC /* circle_topbar@2x.png */,
-				275F6FEE18349D4B0088FBEC /* Default@2x.png */,
 				275F6FEF18349D4B0088FBEC /* dropdown@2x.png */,
 				275F6FF018349D4B0088FBEC /* icon-watch@2x.png */,
 				275F6FF118349D4B0088FBEC /* icon_calender-1@2x.png */,
@@ -2429,7 +2423,6 @@
 				275F704518349D4B0088FBEC /* arrow_popup@2x.png in Resources */,
 				275F704618349D4B0088FBEC /* arrow_prev@2x.png in Resources */,
 				275F704718349D4B0088FBEC /* arrow_s5B@2x.png in Resources */,
-				275F704818349D4B0088FBEC /* background@2x.png in Resources */,
 				275F704918349D4B0088FBEC /* bg_s2@2x.png in Resources */,
 				275F705518349D4B0088FBEC /* bottom_box_s3@2x.png in Resources */,
 				275F705618349D4B0088FBEC /* box_calender@2x.png in Resources */,
@@ -2508,7 +2501,6 @@
 				275F709E18349D4B0088FBEC /* circle_s4@2x.png in Resources */,
 				275F709F18349D4B0088FBEC /* circle_s4_h@2x.png in Resources */,
 				275F70A018349D4B0088FBEC /* circle_topbar@2x.png in Resources */,
-				275F70A118349D4B0088FBEC /* Default@2x.png in Resources */,
 				275F70A218349D4B0088FBEC /* dropdown@2x.png in Resources */,
 				275F70A318349D4B0088FBEC /* icon-watch@2x.png in Resources */,
 				275F70A418349D4B0088FBEC /* icon_calender-1@2x.png in Resources */,
