@@ -1593,6 +1593,7 @@
         self.objPicker =[[UICustomPicker alloc] init];
         self.objPicker.delegate = self;
     }
+    printf("%s", [self.arrModules valueForKey:@"module_name"]);
     [self.objPicker initWithCustomPicker:CGRectMake(0, 160, 320,240) inView:self.btnModulesDropDown  ContentSize:CGSizeMake(320, 216) pickerSize:CGRectMake(0, 20, 320, 216) barStyle:UIBarStyleBlack Recevier:(UIButton*)sender componentArray:[NSArray arrayWithArray:[self.arrModules valueForKey:@"module_name"]] toolBartitle:[eEducationAppDelegate getLocalvalue:nil] textColor:[UIColor whiteColor] needToSort:FALSE withDictKey:@"module_name"];
 }
 
@@ -1813,7 +1814,7 @@
         }
         cell.lblVideoTitle.text = [[VideoListArray objectAtIndex:index] valueForKey:@"video_name"];
         cell.txtVideoDesc.text = [[VideoListArray objectAtIndex:index] valueForKey:@"video_desc"];
-        [cell.asyVideoImg loadImageFromURL:[NSURL URLWithString:[[[VideoListArray objectAtIndex:index] valueForKey:@"video_image"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] imageName:@"logo_mindway .png"];
+        [cell.asyVideoImg loadImageFromURL:[NSURL URLWithString:[[[VideoListArray objectAtIndex:index] valueForKey:@"video_image"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] imageName:@"logo_mindway.png"];
         return cell;
     }
 }

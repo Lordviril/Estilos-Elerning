@@ -305,7 +305,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <color key="tintColor" red="0.0" green="0.62745098040000002" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                    <color key="textColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="textColor" red="0.0" green="0.62745098040000002" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="239">
@@ -315,7 +315,7 @@
                                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
                                     <inset key="titleEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     <state key="normal">
-                                        <color key="titleColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="titleColor" red="0.0" green="0.62745098040000002" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <state key="highlighted">
@@ -407,7 +407,7 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </label>
-                        <view contentMode="scaleToFill" id="330" customClass="GMGridView">
+                        <view contentMode="top" id="330" customClass="GMGridView">
                             <rect key="frame" x="260" y="57" width="488" height="219"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -514,7 +514,7 @@
                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </label>
                         <view alpha="0.80000000000000004" contentMode="scaleToFill" id="347" customClass="GMGridView">
-                            <rect key="frame" x="260" y="497" width="488" height="150"/>
+                            <rect key="frame" x="260" y="506" width="488" height="141"/>
                             <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
@@ -546,7 +546,7 @@
                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </label>
                         <view alpha="0.80000000000000004" contentMode="scaleToFill" id="350" customClass="GMGridView">
-                            <rect key="frame" x="260" y="683" width="488" height="150"/>
+                            <rect key="frame" x="260" y="692" width="488" height="141"/>
                             <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <connections>
@@ -565,7 +565,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="282">
-                            <rect key="frame" x="36" y="140" width="188" height="39"/>
+                            <rect key="frame" x="28" y="140" width="203" height="39"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
@@ -583,7 +583,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="285">
-                            <rect key="frame" x="36" y="180" width="188" height="39"/>
+                            <rect key="frame" x="28" y="180" width="203" height="39"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
@@ -601,7 +601,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="287">
-                            <rect key="frame" x="36" y="220" width="188" height="39"/>
+                            <rect key="frame" x="28" y="220" width="203" height="39"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>

@@ -252,7 +252,7 @@
                     </connections>
                 </tableView>
                 <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="tailTruncation" id="83">
-                    <rect key="frame" x="32" y="196" width="143" height="31"/>
+                    <rect key="frame" x="32" y="226" width="143" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.023529411760000001" green="0.82745098039999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>

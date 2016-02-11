@@ -283,7 +283,7 @@
     }
     cell.lblName.text = [[self.arrStudents objectAtIndex:index] valueForKey:@"student_full_name"];
     [cell.btnEmail setTitle:[[self.arrStudents objectAtIndex:index] valueForKey:@"student_email_id"] forState:UIControlStateNormal];
-    [cell.imgProfile loadImageFromURL:[NSURL URLWithString:[[[self.arrStudents objectAtIndex:index] valueForKey:@"student_image"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] imageName:@"no-image-200x200.png"];
+    [cell.imgProfile loadImageFromURL:[NSURL URLWithString:[[[self.arrStudents objectAtIndex:index] valueForKey:@"student_image"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] imageName:@"logo_mindway.png"];
     cell.btnDesc.tag = index;
     cell.btnEmail.tag = index;
     [cell.btnEmail.titleLabel setTextAlignment:UITextAlignmentCenter];

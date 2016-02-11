@@ -145,7 +145,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="10"/>
-                            <color key="textColor" red="0.0" green="0.72941178080000002" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="textColor" red="0.0" green="0.62745098040000002" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="BIENVENIDO" lineBreakMode="tailTruncation" minimumFontSize="10" id="166">
@@ -237,7 +237,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                             <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="41" maxY="0.0"/>
-                            <state key="normal" backgroundImage="button_s3-1.png">
+                            <state key="normal" backgroundImage="boton_verde.png">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -535,7 +535,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                             <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="45" maxY="0.0"/>
-                            <state key="normal" backgroundImage="button_s11.png">
+                            <state key="normal" backgroundImage="boton_verde.png">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -704,6 +704,7 @@
     </objects>
     <resources>
         <image name="backgroundnuevo.jpg" width="2048" height="1366"/>
+        <image name="boton_verde.png" width="601" height="200"/>
         <image name="bottambar.png" width="768" height="49"/>
         <image name="box_s11.png" width="732" height="826"/>
         <image name="btn_back.png" width="9" height="16"/>
@@ -717,8 +718,6 @@
         <image name="btn_on-off.png" width="82" height="24"/>
         <image name="btn_on-off_h.png" width="82" height="24"/>
         <image name="btn_setting_h.png" width="30" height="30"/>
-        <image name="button_s11.png" width="132" height="39"/>
-        <image name="button_s3-1.png" width="143" height="39"/>
         <image name="circle_img_s8.png" width="100" height="100"/>
         <image name="configuracion_amarillo.png" width="31" height="33"/>
         <image name="dropdown.png" width="386" height="29"/>

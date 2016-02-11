@@ -196,6 +196,7 @@
     
 	if(![[SelectedDictonary objectForKey:@"course_desc"] isKindOfClass:[NSNull class]])
 		textview.text=[SelectedDictonary objectForKey:@"course_desc"];
+    _imageAsynchronus.contentMode = UIViewContentModeScaleAspectFit;
     [_imageAsynchronus loadImage:[UIImage imageNamed:@"logo_mindway.png"]];
 	[_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"logo_mindway.png"];
     
@@ -625,8 +626,10 @@
 	[button addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
 	button.tag = index;
 	AsyncImageView *async_iamge = [[AsyncImageView alloc] initWithFrame:CGRectMake(0, 0, button.frame.size.width, button.frame.size.height)];
-    
+    async_iamge.contentMode = UIViewContentModeScaleAspectFit;
 	[async_iamge loadImageFromURL:[NSURL URLWithString:[[Dict objectForKey:@"coursesmall_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"logo_mindway.png"];
+    
+    async_iamge.backgroundColor = [UIColor whiteColor];
 	CALayer *viewLayer = [async_iamge layer];
 	[viewLayer setBorderWidth:1.0f];
 	[viewLayer setBorderColor:[[UIColor blackColor]CGColor]];
@@ -721,10 +724,12 @@
 	if([[SelectedDictonary objectForKey:@"coursebig_image"] length]>0){
         [_imageAsynchronus loadImage:[UIImage imageNamed:@"logo_mindway.png"]];
         [_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"logo_mindway.png"];
+        _imageAsynchronus.contentMode = UIViewContentModeScaleAspectFit;
     }
 	else{
         [_imageAsynchronus loadImage:[UIImage imageNamed:@"logo_mindway.png"]];
         [_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"logo_mindway.png"];
+        _imageAsynchronus.contentMode = UIViewContentModeScaleAspectFit;
     }
     if ([strTutorialURL isEqualToString:@""] || strTutorialURL == nil)
     {
