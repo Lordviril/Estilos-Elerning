@@ -196,8 +196,8 @@
     
 	if(![[SelectedDictonary objectForKey:@"course_desc"] isKindOfClass:[NSNull class]])
 		textview.text=[SelectedDictonary objectForKey:@"course_desc"];
-    [_imageAsynchronus loadImage:[UIImage imageNamed:@"no-image-486x682.png"]];
-	[_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"no-image-486x682.png"];
+    [_imageAsynchronus loadImage:[UIImage imageNamed:@"logo_mindway.png"]];
+	[_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"logo_mindway.png"];
     
 	if(!([[SelectedDictonary objectForKey:@"tutorial"] isKindOfClass:[NSNull class]]) && ([SelectedDictonary objectForKey:@"tutorial"]!=nil))
 	{
@@ -626,7 +626,7 @@
 	button.tag = index;
 	AsyncImageView *async_iamge = [[AsyncImageView alloc] initWithFrame:CGRectMake(0, 0, button.frame.size.width, button.frame.size.height)];
     
-	[async_iamge loadImageFromURL:[NSURL URLWithString:[[Dict objectForKey:@"coursesmall_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"no-image-224x316.png"];
+	[async_iamge loadImageFromURL:[NSURL URLWithString:[[Dict objectForKey:@"coursesmall_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"logo_mindway.png"];
 	CALayer *viewLayer = [async_iamge layer];
 	[viewLayer setBorderWidth:1.0f];
 	[viewLayer setBorderColor:[[UIColor blackColor]CGColor]];
@@ -719,12 +719,12 @@
 	if(![[SelectedDictonary objectForKey:@"course_desc"] isKindOfClass:[NSNull class]])
 		textview.text=[SelectedDictonary objectForKey:@"course_desc"];
 	if([[SelectedDictonary objectForKey:@"coursebig_image"] length]>0){
-        [_imageAsynchronus loadImage:[UIImage imageNamed:@"no-image-486x682.png"]];
-        [_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"no-image-486x682.png"];
+        [_imageAsynchronus loadImage:[UIImage imageNamed:@"logo_mindway.png"]];
+        [_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"logo_mindway.png"];
     }
 	else{
-        [_imageAsynchronus loadImage:[UIImage imageNamed:@"no-image-486x682.png"]];
-        [_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"no-image-486x682.png"];
+        [_imageAsynchronus loadImage:[UIImage imageNamed:@"logo_mindway.png"]];
+        [_imageAsynchronus loadImageFromURL:[NSURL URLWithString:[[SelectedDictonary objectForKey:@"coursebig_image"] stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionExternalRepresentation]] imageName:@"logo_mindway.png"];
     }
     if ([strTutorialURL isEqualToString:@""] || strTutorialURL == nil)
     {

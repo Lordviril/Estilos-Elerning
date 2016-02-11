@@ -408,7 +408,15 @@
 		53FEB24614C4292100F09A4A /* CustomCellLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FEB23D14C4292100F09A4A /* CustomCellLibrary.m */; };
 		53FEB24714C4292100F09A4A /* VirtualVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FEB24014C4292100F09A4A /* VirtualVideos.m */; };
 		53FEB24814C4292100F09A4A /* VirtualVideos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FEB24114C4292100F09A4A /* VirtualVideos.xib */; };
-		847BDECA1C453F7800FA5235 /* logo mindway.png in Resources */ = {isa = PBXBuildFile; fileRef = 847BDEC81C453F7800FA5235 /* logo mindway.png */; };
+		8473A2381C6BA0C3008BCF20 /* courses_verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 8473A2361C6BA0C3008BCF20 /* courses_verde.png */; };
+		8473A2391C6BA0C3008BCF20 /* list-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 8473A2371C6BA0C3008BCF20 /* list-active.png */; };
+		8473A23B1C6BA607008BCF20 /* boton_verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 8473A23A1C6BA607008BCF20 /* boton_verde.png */; };
+		8473A2AE1C6C23B7008BCF20 /* boton_verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 8473A2AD1C6C23B7008BCF20 /* boton_verde.png */; };
+		8473A2B01C6C243D008BCF20 /* icon-messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 8473A2AF1C6C243D008BCF20 /* icon-messages.png */; };
+		8473A2B21C6C246A008BCF20 /* icon-video.png in Resources */ = {isa = PBXBuildFile; fileRef = 8473A2B11C6C246A008BCF20 /* icon-video.png */; };
+		8473A2B41C6C3D22008BCF20 /* calendar-note_verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 8473A2B31C6C3D22008BCF20 /* calendar-note_verde.png */; };
+		8473A2B61C6C4165008BCF20 /* configuracion_amarillo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8473A2B51C6C4165008BCF20 /* configuracion_amarillo.png */; };
+		847BDECA1C453F7800FA5235 /* logo_mindway.png in Resources */ = {isa = PBXBuildFile; fileRef = 847BDEC81C453F7800FA5235 /* logo_mindway.png */; };
 		847BDECB1C453F7800FA5235 /* backgroundnuevo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 847BDEC91C453F7800FA5235 /* backgroundnuevo.jpg */; };
 		C59CF49C14A3134500D0A408 /* EpubReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59CF49A14A3134500D0A408 /* EpubReaderViewController.m */; };
 		C59CF49D14A3134500D0A408 /* EpubReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59CF49B14A3134500D0A408 /* EpubReaderViewController.xib */; };
@@ -963,7 +971,15 @@
 		53FEB23F14C4292100F09A4A /* VirtualVideos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualVideos.h; sourceTree = "<group>"; };
 		53FEB24014C4292100F09A4A /* VirtualVideos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = VirtualVideos.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		53FEB24114C4292100F09A4A /* VirtualVideos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VirtualVideos.xib; sourceTree = "<group>"; };
-		847BDEC81C453F7800FA5235 /* logo mindway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo mindway.png"; sourceTree = "<group>"; };
+		8473A2361C6BA0C3008BCF20 /* courses_verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courses_verde.png; sourceTree = "<group>"; };
+		8473A2371C6BA0C3008BCF20 /* list-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-active.png"; sourceTree = "<group>"; };
+		8473A23A1C6BA607008BCF20 /* boton_verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_verde.png; sourceTree = "<group>"; };
+		8473A2AD1C6C23B7008BCF20 /* boton_verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_verde.png; sourceTree = "<group>"; };
+		8473A2AF1C6C243D008BCF20 /* icon-messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-messages.png"; sourceTree = "<group>"; };
+		8473A2B11C6C246A008BCF20 /* icon-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-video.png"; sourceTree = "<group>"; };
+		8473A2B31C6C3D22008BCF20 /* calendar-note_verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-note_verde.png"; sourceTree = "<group>"; };
+		8473A2B51C6C4165008BCF20 /* configuracion_amarillo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configuracion_amarillo.png; sourceTree = "<group>"; };
+		847BDEC81C453F7800FA5235 /* logo_mindway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_mindway.png; sourceTree = "<group>"; };
 		847BDEC91C453F7800FA5235 /* backgroundnuevo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundnuevo.jpg; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* eEducation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "eEducation-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		963E0BC615662A7C0018747F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
@@ -1098,6 +1114,7 @@
 		27538F001480DE8B00F33EEC /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				8473A2B51C6C4165008BCF20 /* configuracion_amarillo.png */,
 				27538F011480DE8B00F33EEC /* Settings.h */,
 				27538F021480DE8B00F33EEC /* Settings.m */,
 				27538F031480DE8B00F33EEC /* Settings.xib */,
@@ -1108,7 +1125,8 @@
 		275F6F8F18349D4B0088FBEC /* images */ = {
 			isa = PBXGroup;
 			children = (
-				847BDEC81C453F7800FA5235 /* logo mindway.png */,
+				8473A23A1C6BA607008BCF20 /* boton_verde.png */,
+				847BDEC81C453F7800FA5235 /* logo_mindway.png */,
 				847BDEC91C453F7800FA5235 /* backgroundnuevo.jpg */,
 				2769387F18655E8400B68FB1 /* btn_done@2x.png */,
 				278B335A1855D0D70020A78C /* btn_modules@2x.png */,
@@ -2059,6 +2077,7 @@
 		44AB64A5146E5C91005B4C0E /* LCourseList */ = {
 			isa = PBXGroup;
 			children = (
+				8473A2351C6BA0A2008BCF20 /* images */,
 				44AB64A6146E5C91005B4C0E /* ICourseList.h */,
 				44AB64A7146E5C91005B4C0E /* ICourseList.m */,
 				44AB64A8146E5C91005B4C0E /* ICourseList.xib */,
@@ -2069,6 +2088,7 @@
 		44AB64FF146E6022005B4C0E /* ModulesList */ = {
 			isa = PBXGroup;
 			children = (
+				8473A2AC1C6C2375008BCF20 /* image */,
 				278ECDDD183A3D6100880178 /* CustomCells */,
 				37F2351314E547BD00ECDBBF /* ModuleHomePage */,
 				2799B703146EAC82005E9B73 /* ChapterDetails */,
@@ -2189,6 +2209,25 @@
 			name = "Virtual Videos";
 			sourceTree = "<group>";
 		};
+		8473A2351C6BA0A2008BCF20 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8473A2361C6BA0C3008BCF20 /* courses_verde.png */,
+				8473A2371C6BA0C3008BCF20 /* list-active.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8473A2AC1C6C2375008BCF20 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8473A2AD1C6C23B7008BCF20 /* boton_verde.png */,
+				8473A2AF1C6C243D008BCF20 /* icon-messages.png */,
+				8473A2B11C6C246A008BCF20 /* icon-video.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		C5A4EC1814AAD9DF00E5A3A8 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -2306,6 +2345,7 @@
 		C5BB27D314A221CC006A2E98 /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
+				8473A2B31C6C3D22008BCF20 /* calendar-note_verde.png */,
 				271162041840EBBA00E66986 /* AlertCustomCell.xib */,
 				C5BB27D414A221CC006A2E98 /* AlertCustomCell.h */,
 				C5BB27D514A221CC006A2E98 /* AlertCustomCell.m */,
@@ -2401,6 +2441,7 @@
 				C59CF49D14A3134500D0A408 /* EpubReaderViewController.xib in Resources */,
 				C5BA1BCC14A9E50A005654E5 /* TestResultListing.xib in Resources */,
 				378B8F5C14B3316C00255AD1 /* left-arrow.png in Resources */,
+				8473A2B01C6C243D008BCF20 /* icon-messages.png in Resources */,
 				378B8F5D14B3316C00255AD1 /* right-arrow.png in Resources */,
 				378F810714B582020097046D /* ForumDetail.xib in Resources */,
 				378FEF2214B5ABF600C894B9 /* Screen3.png in Resources */,
@@ -2449,6 +2490,7 @@
 				275F706B18349D4B0088FBEC /* btn_education_h@2x.png in Resources */,
 				275F706C18349D4B0088FBEC /* btn_language@2x.png in Resources */,
 				275F706D18349D4B0088FBEC /* btn_language_h@2x.png in Resources */,
+				8473A2AE1C6C23B7008BCF20 /* boton_verde.png in Resources */,
 				275F706E18349D4B0088FBEC /* btn_login@2x.png in Resources */,
 				275F706F18349D4B0088FBEC /* btn_login_h@2x.png in Resources */,
 				275F707018349D4B0088FBEC /* btn_logout@2x.png in Resources */,
@@ -2456,14 +2498,16 @@
 				275F707218349D4B0088FBEC /* btn_on-off@2x.png in Resources */,
 				275F707318349D4B0088FBEC /* btn_on-off_h@2x.png in Resources */,
 				275F707418349D4B0088FBEC /* btn_play@2x.png in Resources */,
+				8473A2381C6BA0C3008BCF20 /* courses_verde.png in Resources */,
 				275F707518349D4B0088FBEC /* btn_s2@2x.png in Resources */,
 				275F707618349D4B0088FBEC /* btn_s6-1@2x.png in Resources */,
+				8473A2391C6BA0C3008BCF20 /* list-active.png in Resources */,
 				275F707718349D4B0088FBEC /* btn_s6@2x.png in Resources */,
 				275F707818349D4B0088FBEC /* btn_setting@2x.png in Resources */,
 				275F707918349D4B0088FBEC /* btn_setting_h@2x.png in Resources */,
 				275F707A18349D4B0088FBEC /* button_s11@2x.png in Resources */,
 				275F707B18349D4B0088FBEC /* button_s12@2x.png in Resources */,
-				847BDECA1C453F7800FA5235 /* logo mindway.png in Resources */,
+				847BDECA1C453F7800FA5235 /* logo_mindway.png in Resources */,
 				275F707C18349D4B0088FBEC /* button_s15@2x.png in Resources */,
 				275F707D18349D4B0088FBEC /* button_s16-1@2x.png in Resources */,
 				275F707E18349D4B0088FBEC /* button_s16@2x.png in Resources */,
@@ -2474,6 +2518,7 @@
 				275F708318349D4B0088FBEC /* button_s4@2x.png in Resources */,
 				275F708418349D4B0088FBEC /* button_s5@2x.png in Resources */,
 				275F708518349D4B0088FBEC /* button_s5C@2x.png in Resources */,
+				8473A2B21C6C246A008BCF20 /* icon-video.png in Resources */,
 				275F708618349D4B0088FBEC /* button_s7-1@2x.png in Resources */,
 				275F708718349D4B0088FBEC /* button_s7@2x.png in Resources */,
 				275F708818349D4B0088FBEC /* button_s7A@2x.png in Resources */,
@@ -2594,11 +2639,13 @@
 				27CAF75A183C98D20027F7CB /* icon_zoom-in.png in Resources */,
 				27CAF75B183C98D20027F7CB /* icon_zoom-out_h.png in Resources */,
 				27CAF75C183C98D20027F7CB /* icon_zoom-out.png in Resources */,
+				8473A23B1C6BA607008BCF20 /* boton_verde.png in Resources */,
 				27CAF761183C9A430027F7CB /* arrow_left_s3A_h.png in Resources */,
 				27CAF762183C9A430027F7CB /* arrow_left_s3A.png in Resources */,
 				27CAF763183C9A430027F7CB /* arrow_right_s3A_h.png in Resources */,
 				27CAF764183C9A430027F7CB /* arrow_right_s3A.png in Resources */,
 				27CC6CF5183DD939005A29EE /* OtherStudents.xib in Resources */,
+				8473A2B41C6C3D22008BCF20 /* calendar-note_verde.png in Resources */,
 				27CC6CFA183DE22C005A29EE /* StudentsCell.xib in Resources */,
 				27CC6D33183E2EE1005A29EE /* background.png in Resources */,
 				27CC6D34183E2EE1005A29EE /* box_s16.png in Resources */,
@@ -2610,6 +2657,7 @@
 				27CC6D3A183E2EE1005A29EE /* menu_video_s11_h.png in Resources */,
 				27CC6D3B183E2EE1005A29EE /* menu_video_s11.png in Resources */,
 				27CC6D3D183E2FDF005A29EE /* top-bar-logo.png in Resources */,
+				8473A2B61C6C4165008BCF20 /* configuracion_amarillo.png in Resources */,
 				27CC6D41183E3103005A29EE /* arrow.png in Resources */,
 				27CC6D42183E3103005A29EE /* strip_f16_h.png in Resources */,
 				27CC6D43183E3103005A29EE /* strip_f16.png in Resources */,

@@ -1813,7 +1813,7 @@
         }
         cell.lblVideoTitle.text = [[VideoListArray objectAtIndex:index] valueForKey:@"video_name"];
         cell.txtVideoDesc.text = [[VideoListArray objectAtIndex:index] valueForKey:@"video_desc"];
-        [cell.asyVideoImg loadImageFromURL:[NSURL URLWithString:[[[VideoListArray objectAtIndex:index] valueForKey:@"video_image"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] imageName:@"no-image-366x202.png"];
+        [cell.asyVideoImg loadImageFromURL:[NSURL URLWithString:[[[VideoListArray objectAtIndex:index] valueForKey:@"video_image"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] imageName:@"logo_mindway .png"];
         return cell;
     }
 }
