@@ -410,7 +410,7 @@
                         <view contentMode="top" id="330" customClass="GMGridView">
                             <rect key="frame" x="260" y="57" width="488" height="219"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="333"/>
                             </connections>
@@ -463,7 +463,7 @@
                         <view alpha="0.80000000000000004" contentMode="scaleToFill" id="336" customClass="GMGridView">
                             <rect key="frame" x="260" y="320" width="488" height="141"/>
                             <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="337"/>
                             </connections>
@@ -501,8 +501,8 @@
                                 <action selector="btnTestStatusClicked:" destination="-1" eventType="touchUpInside" id="373"/>
                             </connections>
                         </button>
-                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="icon_leaf.png" id="296">
-                            <rect key="frame" x="276" y="475" width="12" height="18"/>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="practica_amarillo.png" id="296">
+                            <rect key="frame" x="271" y="469" width="19" height="28"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </imageView>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="395">
@@ -548,7 +548,7 @@
                         <view alpha="0.80000000000000004" contentMode="scaleToFill" id="350" customClass="GMGridView">
                             <rect key="frame" x="260" y="692" width="488" height="141"/>
                             <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="351"/>
                             </connections>
@@ -1290,12 +1290,12 @@
         <image name="icon_calender-1.png" width="13" height="13"/>
         <image name="icon_calender_s5.png" width="18" height="19"/>
         <image name="icon_head_s4.png" width="13" height="17"/>
-        <image name="icon_leaf.png" width="12" height="18"/>
         <image name="icon_leaf_s5.png" width="17" height="25"/>
         <image name="left_box_s4-1.png" width="230" height="422"/>
         <image name="left_box_s4.png" width="230" height="194"/>
+        <image name="practica_amarillo.png" width="32" height="32"/>
         <image name="radio.png" width="22" height="22"/>
-        <image name="right_box_tab_s4_blue.png" width="490" height="42"/>
+        <image name="right_box_tab_s4_blue.png" width="980" height="84"/>
         <image name="right_box_tab_s4_gray.png" width="490" height="44"/>
         <image name="topbar.png" width="768" height="61"/>
     </resources>
